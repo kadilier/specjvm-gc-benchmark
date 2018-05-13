@@ -1,3 +1,5 @@
+#maxvm -Xms_m -Xmx_m -XX:+TraceGCTime test.output.GCTest3 | grep Timings
+
 import re
 
 
