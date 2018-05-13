@@ -1,14 +1,9 @@
-import os
-import subprocess
-
-""" 
+"""
 Contains structures for the experiment(s):
     Experiment
         -> Benchmark
-            -> Result (contains all measurements required for the different configs(heapSize)   
+            -> Result (contains all measurements required for the different configs(heapSize)
 """
-
-
 class Result:
 
     def __init__(self, heapSize, bench_id):
@@ -60,24 +55,3 @@ class Experiment:
 
     def addBenchmark(self, benchmark):
         self.benchmarks.append(benchmark)
-
-    def getBenchmark(self):
-        return benchmark
-
-
-experiment1 = Experiment("exp1", "jvm1", "gc1")
-
-for bench in range(1, 12):
-
-    benchmark = Benchmark("bench" + str(bench))
-    for heapSize in range(1, 11):
-        benchmark.makeResult(heapSize * 50, bench)
-
-    experiment1.addBenchmark(benchmark)
-
-for bench in range(0, 11):
-
-    print "Bench: ", experiment1.benchmarks[bench].name
-
-    for result in experiment1.benchmarks[bench].results:
-        print "-- result-heap: ", result.heapSize, " with id: ", result.bench_id
