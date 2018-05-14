@@ -1,6 +1,5 @@
 import os, sys, json
 import subprocess
-from structure import Experiment, Benchmark, Result
 
 JSON_FILE = "../resources/output.json"
 
