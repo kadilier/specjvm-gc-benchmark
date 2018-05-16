@@ -11,6 +11,10 @@ gc = "G1"
 warmUpTime = "60s"
 execTime = "120s"
 
+# creating necessary dirs
+if not os.path.exists("../resources/Benchmarks"):
+    os.makedirs("../resources/Benchmarks")
+
 for benchmark in benchmarks:
 
     heapSize = 64
@@ -18,6 +22,10 @@ for benchmark in benchmarks:
     for heapIter in range(1,7):
 
         heapSizeStr = str(heapSize)
+
+        # creating necessary dir
+        if not os.path.exists('../resources/Benchmarks/' + benchmark):
+            os.makedirs('../resources/Benchmarks/' + benchmark)
 
         logfile = open('../resources/../Benchmarks/' + benchmark + '/' + gc + '_' + heapSizeStr + '.txt', 'w+')
         command = "java" + " -Xms" + heapSizeStr + "m" + " -Xmx" + heapSizeStr + "m" +" -XX:+UseG1GC" + " -XX:+PrintGCApplicationConcurrentTime" + " -verbose:gc" +" -Dspecjvm.home.dir=/home/kadilier/MaxineVM/maxineGCBenchmark/SPEC" +  " -jar" + "  /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC/SPECjvm2008.jar" + " -it " + execTime + " -wt " + warmUpTime + " -coe" +" -crf" + " false" + " -ikv" + " " + str.lower(benchmark)
