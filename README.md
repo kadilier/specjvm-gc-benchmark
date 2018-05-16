@@ -20,7 +20,7 @@ individual test runs.
 
 ### Creating necessary directories
 
-Specjvm2008 download from [here](https://www.spec.org/download.html)) and placed in the following dir: *src/main/resources/SPEC*. Benchmark run scipts inside:  src/main/python create any other necessary dir inside src/main/resources.
+Specjvm2008 download from [here] (https://www.spec.org/download.html)) and placed in the following dir: *src/main/resources/SPEC*. Benchmark run scipts inside:  src/main/python create any other necessary dir inside src/main/resources.
 
 ### Running benchmark tests
 
@@ -37,3 +37,8 @@ Inside *src/main/python* each Python script corresponds to a different GC test.
   and stored in a json format output file.
   
   This file contains all details for the experiment that were executed.
+    
+### Logging GC information
+  We use the following arguments:
+    - Maxine's GCs : -XX:+TraceGCTime, -XX:+PrintCompilationTime
+    - HotSpot G1: -XX:+PrintGCApplicationConcurrentTime, -verbose:gc
