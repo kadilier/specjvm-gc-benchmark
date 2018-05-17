@@ -1,4 +1,4 @@
-import re
+import os, re
 
 youngNUM = 0
 youngTotalTime = 0
@@ -7,17 +7,18 @@ mixedNUM = 0
 mixedTotalTime = 0
 mixedReclaimed = 0
 
-
-
-FILES_PATH = "../resources/Benchmarks/"
+FILES_PATH = "../../resources/Benchmarks/"
 folders = os.listdir(FILES_PATH)
+
 for folder in folders:
 	if "TODO" in folder:
 		continue
 	files = os.listdir(FILES_PATH + folder)
-	for file in files
+	for file in files:
+
 		if("G1" not in file):
 			continue
+
 		###################### Initialize variables ######################
 		youngNUM = 0
 		youngTotalTime = 0
@@ -58,6 +59,9 @@ for folder in folders:
 							before = int(re.search(r'\d+', list2[0]).group())
 							before = before * 1024
 						else:
+							print folder , file
+							print "TEST0 :", line
+							print "TEST: ",list2[0]
 							before = int(re.search(r'\d+', list2[0]).group())
 
 						list3 = list2[1].split("(")

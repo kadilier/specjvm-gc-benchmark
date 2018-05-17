@@ -1,3 +1,5 @@
+import re
+
 """
 Contains structures for the experiment(s):
     Experiment
@@ -6,19 +8,46 @@ Contains structures for the experiment(s):
 """
 class Result:
 
-    def __init__(self, heapSize, bench_id):
+    def __init__(self, heapSize, bench_id, gcNum, minorNumNotFull, minorTotalTime, minorTotalReclaimed, minorTotalTimeFull, majorTotalNum, majorTotalTime, totalTimeFull, totalTime, majorTotalReclaimed):
         # Configs
         self.heapSize = heapSize
         self.bench_id = bench_id
 
         # Measurement
-        self.time = -1
-        self.majorC = -1
-        self.minorC = -1
-        self.majorAvgT = -1
-        self.minorAvgT = -1
-        self.majorTotalT = -1
-        self.minorTotalT = -1
+        self.gcNum = gcNum
+        self.minorNumNotFull = minorNumNotFull
+        self.minorTotalTime = minorTotalTime
+        self.minorTotalReclaimed = minorTotalReclaimed
+        self.minorTotalTimeinFULLGC = minorTotalTimeFull
+        self.majorNum = majorTotalNum
+        self.majorTotalTime = majorTotalTime
+        self.totalTimeFull = totalTimeFull
+        self.totalTime = totalTime
+        self.majorTotalReclaimed = majorTotalReclaimed
+
+    #def __init__(self, heapSize, bench_id, time, majorC, minorC, majorAvgT, minorAvgT, majorTotalT, minorTotalT):
+        # Configs
+        #self.heapSize = heapSize
+        #self.bench_id = bench_id
+
+        # Measurement
+        #self.time = time
+        #self.majorC = majorC
+        #self.minorC = minorC
+        #self.majorAvgT = majorAvgT
+        #self.minorAvgT = minorAvgT
+        #self.majorTotalT = majorTotalT
+        #self.minorTotalT = minorTotalT
+
+    def getHeapSize(self):
+        return self.heapSize
+
+    def getBenchId(self):
+        return self.bench_id
+
+    def getTime(self):
+        return self.time
+
 
 
 class Benchmark:
@@ -28,8 +57,8 @@ class Benchmark:
         self.appTime = -1
         self.results = []
 
-    def makeResult(self, heapSize, bench_id):
-        self.results.append(Result(heapSize, bench_id))
+    def makeResult(self, heapSize, bench_id, gcNum, minorNumNotFull, minorTotalTime, minorTotalReclaimed, minorTotalTimeFull, majorTotalNum, majorTotalTime, totalTimeFull, totalTime, majorTotalReclaimed):
+        self.results.append(Result(heapSize, bench_id, gcNum, minorNumNotFull, minorTotalTime, minorTotalReclaimed, minorTotalTimeFull, majorTotalNum, majorTotalTime, totalTimeFull, totalTime, majorTotalReclaimed))
 
     def addResult(self, result):
         self.results.append(result)
