@@ -1,0 +1,3327 @@
+Application time: 0.0349415 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        crypto.aes crypto.rsa crypto.signverify
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Tue May 15 23:49:40 GMT 2018
+Application time: 0.1638269 seconds
+[Full GC (System.gc())  9463K->3331K(256M), 0.0140734 secs]
+Application time: 0.0004259 seconds
+[Full GC (System.gc())  3331K->3331K(256M), 0.0079482 secs]
+Iteration 1 (1 operation) ends:   Tue May 15 23:49:40 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   crypto.aes
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+Application time: 0.0764873 seconds
+Application time: 0.1187004 seconds
+[GC pause (G1 Evacuation Pause) (young) 15M->6739K(256M), 0.0043359 secs]
+
+Warmup (60s) begins: Tue May 15 23:49:40 GMT 2018
+Application time: 0.2564844 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->12M(256M), 0.0044412 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0004344 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0090800 secs]
+Application time: 0.0090613 seconds
+[GC remark, 0.0024314 secs]
+Application time: 0.0002341 seconds
+[GC cleanup 14M->14M(256M), 0.0003711 secs]
+Application time: 1.0015883 seconds
+Application time: 0.6412143 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->10M(256M), 0.0065020 secs]
+Application time: 1.1093303 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->14M(256M), 0.0020565 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001132 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0084411 secs]
+Application time: 0.0084328 seconds
+[GC remark, 0.0027108 secs]
+Application time: 0.0000302 seconds
+[GC cleanup 14M->14M(256M), 0.0004265 secs]
+Application time: 0.5230573 seconds
+Application time: 0.2225375 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->14M(256M), 0.0028290 secs]
+Application time: 0.5767529 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->15M(256M), 0.0015028 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001095 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0089232 secs]
+Application time: 0.0135617 seconds
+[GC remark, 0.0030348 secs]
+Application time: 0.0000590 seconds
+[GC cleanup 17M->17M(256M), 0.0004136 secs]
+Application time: 2.2430081 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->17M(256M), 0.0027604 secs]
+Application time: 0.3360745 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->17M(256M), 0.0015794 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002711 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0198305 secs]
+Application time: 0.0213418 seconds
+[GC remark, 0.0031538 secs]
+Application time: 0.0000523 seconds
+[GC cleanup 20M->20M(256M), 0.0004234 secs]
+Application time: 1.0008913 seconds
+Application time: 0.6593787 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->18M(256M), 0.0026445 secs]
+Application time: 0.9550214 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->19M(256M), 0.0009938 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001306 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0170252 secs]
+Application time: 0.0172261 seconds
+[GC remark, 0.0023092 secs]
+Application time: 0.0000430 seconds
+[GC cleanup 21M->20M(256M), 0.0003460 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000088 secs]
+Application time: 0.4672614 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->20M(256M), 0.0023007 secs]
+Application time: 0.5394908 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->19M(256M), 0.0014817 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000989 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0131153 secs]
+Application time: 0.0131299 seconds
+[GC remark, 0.0022246 secs]
+Application time: 0.0000449 seconds
+[GC cleanup 21M->19M(256M), 0.0003417 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000103 secs]
+Application time: 2.3020126 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->19M(256M), 0.0021953 secs]
+Application time: 0.0518831 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->19M(256M), 0.0014436 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001496 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0146235 secs]
+Application time: 0.0148235 seconds
+[GC remark, 0.0040994 secs]
+Application time: 0.0023272 seconds
+[GC cleanup 25M->24M(256M), 0.0004533 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000112 secs]
+Application time: 1.4927561 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->19M(256M), 0.0020367 secs]
+Application time: 1.4803547 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 179M->21M(256M), 0.0022932 secs]
+Application time: 0.0380947 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 82M->21M(256M), 0.0012623 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001186 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0155595 secs]
+Application time: 0.0157354 seconds
+[GC remark, 0.0024643 secs]
+Application time: 0.0000643 seconds
+[GC cleanup 39M->39M(256M), 0.0003642 secs]
+Application time: 1.9586175 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->21M(256M), 0.0019765 secs]
+Application time: 0.9755512 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 180M->22M(256M), 0.0022490 secs]
+Application time: 0.0385190 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->22M(256M), 0.0012785 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001537 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0179371 secs]
+Application time: 0.0181445 seconds
+[GC remark, 0.0023199 secs]
+Application time: 0.0000481 seconds
+[GC cleanup 32M->31M(256M), 0.0003651 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000144 secs]
+Application time: 2.6598156 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->23M(256M), 0.0018872 secs]
+Application time: 0.9164272 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 180M->25M(256M), 0.0032657 secs]
+Application time: 0.0985396 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->25M(256M), 0.0013424 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002954 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0238871 secs]
+Application time: 0.0242753 seconds
+[GC remark, 0.0031692 secs]
+Application time: 0.0000476 seconds
+[GC cleanup 34M->33M(256M), 0.0004095 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000104 secs]
+Application time: 2.0757111 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->25M(256M), 0.0023510 secs]
+Application time: 1.0000840 seconds
+Application time: 0.0166749 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 180M->25M(256M), 0.0024315 secs]
+Application time: 0.3086457 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->26M(256M), 0.0017201 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002810 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0189431 secs]
+Application time: 0.0192805 seconds
+[GC remark, 0.0035405 secs]
+Application time: 0.0000363 seconds
+[GC cleanup 27M->27M(256M), 0.0004550 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000108 secs]
+Application time: 1.7283623 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 179M->26M(256M), 0.0026385 secs]
+Application time: 1.4660188 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 180M->28M(256M), 0.0028310 secs]
+Application time: 0.4076344 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->27M(256M), 0.0018054 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001050 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0085493 secs]
+Application time: 0.0087268 seconds
+[GC remark, 0.0046565 secs]
+Application time: 0.0000290 seconds
+[GC cleanup 28M->27M(256M), 0.0006221 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000104 secs]
+Application time: 1.3256921 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 180M->29M(256M), 0.0032127 secs]
+Application time: 1.6096067 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 181M->30M(256M), 0.0034899 secs]
+Application time: 0.8706576 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->28M(256M), 0.0027104 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002405 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0190612 secs]
+Application time: 0.0190848 seconds
+[GC remark, 0.0044529 secs]
+Application time: 0.0000414 seconds
+[GC cleanup 30M->29M(256M), 0.0004693 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000091 secs]
+Application time: 1.0007815 seconds
+Application time: 0.2501290 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 180M->29M(256M), 0.0027348 secs]
+Application time: 1.3186718 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 181M->31M(256M), 0.0026062 secs]
+Application time: 0.9807343 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 84M->31M(256M), 0.0015162 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002212 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0099580 secs]
+Application time: 0.0102651 seconds
+[GC remark, 0.0030728 secs]
+Application time: 0.0000298 seconds
+[GC cleanup 32M->32M(256M), 0.0003993 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000092 secs]
+Application time: 1.0001579 seconds
+Application time: 0.3360140 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 181M->31M(256M), 0.0026861 secs]
+Application time: 1.2984815 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 181M->32M(256M), 0.0027463 secs]
+Application time: 0.7039233 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 83M->32M(256M), 0.0015561 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001055 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0161196 secs]
+Application time: 0.0162875 seconds
+[GC remark, 0.0027924 secs]
+Application time: 0.0000390 seconds
+[GC cleanup 34M->33M(256M), 0.0004196 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000064 secs]
+Application time: 1.0002545 seconds
+Application time: 0.4336392 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 181M->34M(256M), 0.0022667 secs]
+Application time: 1.2869224 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 181M->35M(256M), 0.0028178 secs]
+Application time: 0.6558330 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 84M->35M(256M), 0.0017896 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002736 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0293508 secs]
+Application time: 0.0296508 seconds
+[GC remark, 0.0032157 secs]
+Application time: 0.0000312 seconds
+[GC cleanup 37M->37M(256M), 0.0004529 secs]
+Application time: 1.2447529 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 181M->36M(256M), 0.0027681 secs]
+Application time: 1.0528627 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 182M->37M(256M), 0.0029689 secs]
+Application time: 0.7474905 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 85M->38M(256M), 0.0015665 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000948 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0106574 secs]
+Application time: 0.0106793 seconds
+[GC remark, 0.0029596 secs]
+Application time: 0.0000372 seconds
+[GC cleanup 38M->38M(256M), 0.0004320 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000108 secs]
+Application time: 1.1815747 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 181M->38M(256M), 0.0025835 secs]
+Application time: 1.3009288 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 182M->39M(256M), 0.0029824 secs]
+Application time: 0.5319871 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 85M->39M(256M), 0.0016717 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001080 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0103043 secs]
+Application time: 0.0102680 seconds
+[GC remark, 0.0030027 secs]
+Application time: 0.0000433 seconds
+[GC cleanup 39M->39M(256M), 0.0004033 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000080 secs]
+Application time: 1.0000938 seconds
+Application time: 0.3456631 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 182M->39M(256M), 0.0026795 secs]
+Application time: 1.7055984 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 182M->40M(256M), 0.0028042 secs]
+Application time: 0.0251396 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 85M->38M(256M), 0.0012247 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002289 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0187277 secs]
+Application time: 0.0190396 seconds
+[GC remark, 0.0030565 secs]
+Application time: 0.0000563 seconds
+[GC cleanup 43M->43M(256M), 0.0004348 secs]
+Application time: 1.2442568 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 182M->41M(256M), 0.0021947 secs]
+Application time: 1.9393785 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->42M(256M), 0.0024961 secs]
+Application time: 0.3916020 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->43M(256M), 0.0027519 secs]
+Application time: 0.4961699 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 86M->43M(256M), 0.0015496 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002663 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0270301 secs]
+Application time: 0.0272985 seconds
+[GC remark, 0.0031199 secs]
+Application time: 0.0000347 seconds
+[GC cleanup 43M->43M(256M), 0.0004429 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000094 secs]
+Application time: 2.4583144 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 182M->43M(256M), 0.0027104 secs]
+Application time: 0.1159792 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->44M(256M), 0.0040358 secs]
+Application time: 2.0782287 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 182M->45M(256M), 0.0027003 secs]
+Application time: 0.5594603 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 85M->45M(256M), 0.0029708 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001068 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0085600 secs]
+Application time: 0.0119898 seconds
+[GC remark, 0.0026100 secs]
+Application time: 0.0000512 seconds
+[GC cleanup 47M->47M(256M), 0.0003850 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000116 secs]
+Application time: 1.4577200 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 182M->44M(256M), 0.0040792 secs]
+Warmup (60s) ends:   Tue May 15 23:50:46 GMT 2018
+Warmup (60s) result: 37.01 ops/m
+
+Iteration 1 (120s) begins: Tue May 15 23:50:46 GMT 2018
+Application time: 1.6076689 seconds
+Application time: 0.0600478 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->46M(256M), 0.0155274 secs]
+Application time: 1.0000949 seconds
+Application time: 0.1246574 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 182M->47M(256M), 0.0038026 secs]
+Application time: 0.7615259 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 85M->47M(256M), 0.0037019 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001152 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0102846 secs]
+Application time: 0.0104396 seconds
+[GC remark, 0.0024383 secs]
+Application time: 0.0000434 seconds
+[GC cleanup 49M->48M(256M), 0.0003596 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000110 secs]
+Application time: 1.0937245 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 183M->48M(256M), 0.0040656 secs]
+Application time: 0.7655374 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->48M(256M), 0.0061612 secs]
+Application time: 2.0921192 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->49M(256M), 0.0052869 secs]
+Application time: 0.0233039 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 86M->49M(256M), 0.0054714 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001529 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0186900 secs]
+Application time: 0.0189257 seconds
+[GC remark, 0.0031891 secs]
+Application time: 0.0000377 seconds
+[GC cleanup 84M->83M(256M), 0.0005102 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000127 secs]
+Application time: 1.3455983 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 183M->50M(256M), 0.0058468 secs]
+Application time: 1.4209824 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 183M->50M(256M), 0.0070298 secs]
+Application time: 0.9140079 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->51M(256M), 0.0063577 secs]
+Application time: 0.6451066 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 86M->51M(256M), 0.0063592 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002889 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120574 secs]
+Application time: 0.0123531 seconds
+[GC remark, 0.0031133 secs]
+Application time: 0.0000397 seconds
+[GC cleanup 53M->52M(256M), 0.0004290 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000110 secs]
+Application time: 0.8216218 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->53M(256M), 0.0087944 secs]
+Application time: 0.9278215 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->53M(256M), 0.0080376 secs]
+Application time: 1.9882043 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->54M(256M), 0.0098475 secs]
+Application time: 0.0220113 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->54M(256M), 0.0075545 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002746 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0183990 secs]
+Application time: 0.0186797 seconds
+[GC remark, 0.0030620 secs]
+Application time: 0.0000313 seconds
+[GC cleanup 68M->68M(256M), 0.0004340 secs]
+Application time: 0.8523228 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->56M(256M), 0.0106295 secs]
+Application time: 1.8388054 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->56M(256M), 0.0124606 secs]
+Application time: 0.6915739 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->56M(256M), 0.0107296 secs]
+Application time: 0.4879910 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->57M(256M), 0.0074149 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002787 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0173756 secs]
+Application time: 0.0177215 seconds
+[GC remark, 0.0031060 secs]
+Application time: 0.0000379 seconds
+[GC cleanup 76M->75M(256M), 0.0004678 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000123 secs]
+Application time: 1.1387075 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->56M(256M), 0.0140645 secs]
+Application time: 1.6452751 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->58M(256M), 0.0146005 secs]
+Application time: 0.3257600 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->58M(256M), 0.0169680 secs]
+Application time: 0.0105019 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->58M(256M), 0.0071388 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001486 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0192591 secs]
+Application time: 0.0194875 seconds
+[GC remark, 0.0031029 secs]
+Application time: 0.0000319 seconds
+[GC cleanup 66M->65M(256M), 0.0004559 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000088 secs]
+Application time: 2.4452604 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->58M(256M), 0.0118010 secs]
+Application time: 0.7118082 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->59M(256M), 0.0177087 secs]
+Application time: 1.0551211 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->60M(256M), 0.0192756 secs]
+Application time: 0.6145058 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->59M(256M), 0.0060581 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0003018 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0182722 secs]
+Application time: 0.0185723 seconds
+[GC remark, 0.0029591 secs]
+Application time: 0.0000413 seconds
+[GC cleanup 61M->60M(256M), 0.0004552 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000094 secs]
+Application time: 1.4419706 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->60M(256M), 0.0175386 secs]
+Application time: 0.3971445 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->61M(256M), 0.0269760 secs]
+Application time: 1.8703834 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->62M(256M), 0.0185058 secs]
+Application time: 0.3993675 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->62M(256M), 0.0069457 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002816 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0154246 secs]
+Application time: 0.0157098 seconds
+[GC remark, 0.0031955 secs]
+Application time: 0.0000383 seconds
+[GC cleanup 63M->62M(256M), 0.0004765 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000088 secs]
+Application time: 0.6179094 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->63M(256M), 0.0258486 secs]
+Application time: 0.7636137 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->63M(256M), 0.0184352 secs]
+Application time: 1.9289699 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->64M(256M), 0.0255486 secs]
+Application time: 0.9928741 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->64M(256M), 0.0183405 secs]
+Application time: 0.2285452 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->64M(256M), 0.0054791 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001337 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0128567 secs]
+Application time: 0.0130829 seconds
+[GC remark, 0.0032936 secs]
+Application time: 0.0000514 seconds
+[GC cleanup 88M->87M(256M), 0.0006881 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000114 secs]
+Application time: 0.9116637 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->65M(256M), 0.0250856 secs]
+Application time: 0.8379314 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->65M(256M), 0.0239196 secs]
+Application time: 1.6153688 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->66M(256M), 0.0188772 secs]
+Application time: 0.9201194 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->66M(256M), 0.0184336 secs]
+Application time: 0.2440588 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->66M(256M), 0.0051808 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002384 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0162371 secs]
+Application time: 0.0165358 seconds
+[GC remark, 0.0031977 secs]
+Application time: 0.0002454 seconds
+[GC cleanup 76M->75M(256M), 0.0004746 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000161 secs]
+Application time: 0.7849718 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->66M(256M), 0.0237850 secs]
+Application time: 1.4122751 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->67M(256M), 0.0179272 secs]
+Application time: 0.6394504 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->67M(256M), 0.0252286 secs]
+Application time: 1.5106977 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->68M(256M), 0.0160978 secs]
+Application time: 0.4462281 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->67M(256M), 0.0047293 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001368 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0104107 secs]
+Application time: 0.0105914 seconds
+[GC remark, 0.0026036 secs]
+Application time: 0.0000435 seconds
+[GC cleanup 72M->71M(256M), 0.0004074 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000071 secs]
+Application time: 0.8131848 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->68M(256M), 0.0198996 secs]
+Application time: 0.7722684 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->69M(256M), 0.0189532 secs]
+Application time: 1.5065830 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->68M(256M), 0.0196431 secs]
+Application time: 0.5786321 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->70M(256M), 0.0202675 secs]
+Application time: 0.1134980 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->70M(256M), 0.0039890 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001824 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0093915 secs]
+Application time: 0.0096459 seconds
+[GC remark, 0.0045673 secs]
+Application time: 0.0000822 seconds
+[GC cleanup 72M->72M(256M), 0.0006580 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000072 secs]
+Application time: 0.9064864 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 184M->71M(256M), 0.0186317 secs]
+Application time: 1.6236006 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->71M(256M), 0.0185872 secs]
+Application time: 0.4555630 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->72M(256M), 0.0190210 secs]
+Application time: 0.8770298 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 184M->72M(256M), 0.0182395 secs]
+Application time: 0.0038327 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 87M->72M(256M), 0.0039725 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000199 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0085321 secs]
+Application time: 0.0086081 seconds
+[GC remark, 0.0023523 secs]
+Application time: 0.0000294 seconds
+[GC cleanup 73M->72M(256M), 0.0003733 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000110 secs]
+Application time: 1.8588729 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->72M(256M), 0.0246621 secs]
+Application time: 0.5116788 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->73M(256M), 0.0256845 secs]
+Application time: 0.6696639 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->74M(256M), 0.0241297 secs]
+Application time: 1.9542153 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->74M(256M), 0.0244218 secs]
+Application time: 0.2125774 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->74M(256M), 0.0046613 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000109 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0101024 secs]
+Application time: 0.0101193 seconds
+[GC remark, 0.0029911 secs]
+Application time: 0.0000444 seconds
+[GC cleanup 75M->74M(256M), 0.0004606 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000072 secs]
+Application time: 0.4983603 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->75M(256M), 0.0245448 secs]
+Application time: 0.4792263 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->75M(256M), 0.0244392 secs]
+Application time: 2.2099866 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->76M(256M), 0.0139941 secs]
+Application time: 0.5251248 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->76M(256M), 0.0156468 secs]
+Application time: 0.0876383 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->76M(256M), 0.0033342 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001340 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0092478 secs]
+Application time: 0.0094372 seconds
+[GC remark, 0.0026016 secs]
+Application time: 0.0000434 seconds
+[GC cleanup 78M->77M(256M), 0.0003706 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000080 secs]
+Application time: 0.5254475 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 185M->77M(256M), 0.0195505 secs]
+Application time: 2.0623766 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->77M(256M), 0.0188755 secs]
+Application time: 0.5263010 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->78M(256M), 0.0192253 secs]
+Application time: 0.4461433 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 185M->79M(256M), 0.0196567 secs]
+Application time: 0.0024286 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 88M->79M(256M), 0.0025845 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000089 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0226684 secs]
+Application time: 0.0227737 seconds
+[GC remark, 0.0027892 secs]
+Application time: 0.0000419 seconds
+[GC cleanup 82M->81M(256M), 0.0004084 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000113 secs]
+Application time: 2.0978884 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->79M(256M), 0.0182538 secs]
+Application time: 0.6523274 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->80M(256M), 0.0199529 secs]
+Application time: 0.6404362 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->80M(256M), 0.0235210 secs]
+Application time: 1.8062502 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->81M(256M), 0.0219959 secs]
+Application time: 0.1038331 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->81M(256M), 0.0029629 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001239 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0089565 secs]
+Application time: 0.0121650 seconds
+[GC remark, 0.0031131 secs]
+Application time: 0.0000308 seconds
+[GC cleanup 81M->80M(256M), 0.0005110 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000094 secs]
+Application time: 0.7751316 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 186M->81M(256M), 0.0189107 secs]
+Application time: 0.8737779 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->82M(256M), 0.0189677 secs]
+Application time: 1.2777152 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->82M(256M), 0.0190536 secs]
+Application time: 0.9935027 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->83M(256M), 0.0186243 secs]
+Application time: 1.0848124 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->83M(256M), 0.0190753 secs]
+Application time: 0.0049260 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->83M(256M), 0.0013106 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000092 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0185136 secs]
+Application time: 0.0186152 seconds
+[GC remark, 0.0028047 secs]
+Application time: 0.0000354 seconds
+[GC cleanup 112M->111M(256M), 0.0004542 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000119 secs]
+Application time: 0.6279139 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->84M(256M), 0.0175730 secs]
+Application time: 1.4733991 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->84M(256M), 0.0183383 secs]
+Application time: 0.7269243 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->85M(256M), 0.0180835 secs]
+Application time: 0.3768801 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->85M(256M), 0.0177552 secs]
+Application time: 1.7347153 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->86M(256M), 0.0162204 secs]
+Application time: 0.0555611 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->86M(256M), 0.0012577 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000250 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0097016 secs]
+Application time: 0.0097674 seconds
+[GC remark, 0.0023325 secs]
+Application time: 0.0000324 seconds
+[GC cleanup 87M->86M(256M), 0.0003876 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000096 secs]
+Application time: 0.2304826 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 186M->86M(256M), 0.0163101 secs]
+Application time: 0.9672870 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->87M(256M), 0.0168310 secs]
+Application time: 1.1354890 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->87M(256M), 0.0165182 secs]
+Application time: 0.8275164 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->87M(256M), 0.0218735 secs]
+Application time: 0.9352995 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->88M(256M), 0.0223773 secs]
+Application time: 0.0037593 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 89M->88M(256M), 0.0013671 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000171 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0155929 secs]
+Application time: 0.0156673 seconds
+[GC remark, 0.0036827 secs]
+Application time: 0.0000601 seconds
+[GC cleanup 95M->94M(256M), 0.0005213 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000117 secs]
+Application time: 0.6114986 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 188M->88M(256M), 0.0205493 secs]
+Application time: 1.4978825 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->89M(256M), 0.0216434 secs]
+Application time: 0.4517029 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->89M(256M), 0.0214229 secs]
+Application time: 0.8699732 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->90M(256M), 0.0206509 secs]
+Application time: 1.2624654 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->90M(256M), 0.0176364 secs]
+Application time: 0.0011103 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 91M->90M(256M), 0.0006413 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000102 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0161689 secs]
+Application time: 0.0162306 seconds
+[GC remark, 0.0026321 secs]
+Application time: 0.0000321 seconds
+[GC cleanup 91M->90M(256M), 0.0003890 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000085 secs]
+Application time: 0.4508271 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->91M(256M), 0.0170775 secs]
+Application time: 1.6112661 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->90M(256M), 0.0205587 secs]
+Application time: 0.1429639 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->91M(256M), 0.0218826 secs]
+Application time: 1.4878947 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->91M(256M), 0.0169922 secs]
+Application time: 0.5055904 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 186M->92M(256M), 0.0182176 secs]
+Application time: 0.0307710 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 93M->92M(256M), 0.0011742 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000103 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0255952 secs]
+Application time: 0.0256681 seconds
+[GC remark, 0.0027080 secs]
+Application time: 0.0000391 seconds
+[GC cleanup 95M->94M(256M), 0.0004335 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000113 secs]
+Application time: 1.0630529 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->93M(256M), 0.0198005 secs]
+Application time: 1.0664071 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->93M(256M), 0.0186153 secs]
+Application time: 0.9240659 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->94M(256M), 0.0196848 secs]
+Application time: 0.9323524 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->94M(256M), 0.0204749 secs]
+Application time: 0.2402220 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->95M(256M), 0.0161745 secs]
+Application time: 0.0001843 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 96M->95M(256M), 0.0008412 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0024376 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0045769 secs]
+Application time: 0.0070728 seconds
+[GC remark, 0.0027039 secs]
+Application time: 0.0019180 seconds
+[GC cleanup 100M->99M(256M), 0.0003417 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000094 secs]
+Application time: 1.0006417 seconds
+Application time: 0.5515628 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->95M(256M), 0.0149498 secs]
+Application time: 0.4042174 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->96M(256M), 0.0156421 secs]
+Application time: 0.8903465 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->96M(256M), 0.0161646 secs]
+Application time: 0.5614716 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->96M(256M), 0.0169385 secs]
+Application time: 1.5833642 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->97M(256M), 0.0175878 secs]
+Application time: 0.0002293 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 98M->97M(256M), 0.0007298 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000094 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0100692 secs]
+Application time: 0.0101287 seconds
+[GC remark, 0.0023279 secs]
+Application time: 0.0000345 seconds
+[GC cleanup 107M->106M(256M), 0.0003765 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000102 secs]
+Application time: 0.1609630 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 188M->97M(256M), 0.0159901 secs]
+Application time: 0.8629304 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->98M(256M), 0.0198989 secs]
+Application time: 1.1617553 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->98M(256M), 0.0174738 secs]
+Application time: 1.4184456 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->99M(256M), 0.0219567 secs]
+Application time: 0.2049422 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->99M(256M), 0.0206274 secs]
+Application time: 0.0593554 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 100M->99M(256M), 0.0015155 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000130 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057190 secs]
+Application time: 0.0058180 seconds
+[GC remark, 0.0031684 secs]
+Application time: 0.0000415 seconds
+[GC cleanup 102M->100M(256M), 0.0004987 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000136 secs]
+Application time: 0.3312640 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 188M->99M(256M), 0.0188646 secs]
+Application time: 1.6543164 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->99M(256M), 0.0157380 secs]
+Application time: 1.2966407 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->100M(256M), 0.0182133 secs]
+Application time: 0.1669028 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->101M(256M), 0.0175891 secs]
+Application time: 0.1193714 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->101M(256M), 0.0166676 secs]
+Application time: 1.7991147 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->101M(256M), 0.0170066 secs]
+Application time: 0.0002337 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 102M->101M(256M), 0.0007060 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000105 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0116603 secs]
+Application time: 0.0117427 seconds
+[GC remark, 0.0031667 secs]
+Application time: 0.0000369 seconds
+[GC cleanup 102M->101M(256M), 0.0004878 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000120 secs]
+Application time: 1.1202734 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 188M->102M(256M), 0.0194578 secs]
+Application time: 0.0733237 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->102M(256M), 0.0189676 secs]
+Application time: 0.1996765 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->102M(256M), 0.0185677 secs]
+Application time: 1.8301392 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->103M(256M), 0.0181693 secs]
+Application time: 1.0399727 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->103M(256M), 0.0169570 secs]
+Application time: 0.4446285 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 187M->104M(256M), 0.0161465 secs]
+Application time: 0.0002230 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 105M->104M(256M), 0.0008316 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0056388 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052012 secs]
+Application time: 0.0109045 seconds
+[GC remark, 0.0024932 secs]
+Application time: 0.0000341 seconds
+[GC cleanup 105M->105M(256M), 0.0004171 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000097 secs]
+Application time: 0.0599736 seconds
+[GC pause (G1 Humongous Allocation) (young)-- 187M->104M(256M), 0.0151647 secs]
+Application time: 1.7128313 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->104M(256M), 0.0145040 secs]
+Application time: 0.9908739 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 189M->104M(256M), 0.0157618 secs]
+Application time: 0.3555182 seconds
+[GC pause (G1 Humongous Allocation) (mixed)-- 188M->105M(256M), 0.0156323 secs]
+Application time: 0.0767267 seconds
+Iteration 1 (120s) ends:   Tue May 15 23:52:50 GMT 2018
+Iteration 1 (120s) result: 36.56 ops/m
+
+Valid run!
+Score on crypto.aes: 36.56 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   crypto.rsa
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+Application time: 2.7160957 seconds
+[GC pause (G1 Evacuation Pause) (mixed)-- 189M->103M(256M), 0.0195068 secs]
+
+Warmup (60s) begins: Tue May 15 23:52:51 GMT 2018
+Application time: 0.0185796 seconds
+Application time: 0.0011643 seconds
+Application time: 0.0122075 seconds
+Application time: 0.1533633 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 115M->95M(256M), 0.0015228 secs]
+Application time: 1.0000936 seconds
+Application time: 0.2481869 seconds
+[GC pause (G1 Evacuation Pause) (young) 199M->95M(256M), 0.0012932 secs]
+Application time: 1.0001101 seconds
+Application time: 0.0714230 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 199M->95M(256M), 0.0013563 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002521 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055624 secs]
+Application time: 0.0058964 seconds
+[GC remark, 0.0030257 secs]
+Application time: 0.0001433 seconds
+[GC cleanup 96M->95M(256M), 0.0005016 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000121 secs]
+Application time: 0.0000542 seconds
+Application time: 0.0002831 seconds
+Application time: 0.6462055 seconds
+[GC pause (G1 Evacuation Pause) (young) 198M->94M(256M), 0.0016439 secs]
+Application time: 0.0654547 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 105M->78M(256M), 0.0014986 secs]
+Application time: 0.0654144 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 89M->56M(256M), 0.0010560 secs]
+Application time: 0.0969948 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 67M->35M(256M), 0.0010114 secs]
+Application time: 0.0655159 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 46M->14M(256M), 0.0008607 secs]
+Application time: 0.0676911 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 25M->13M(256M), 0.0010029 secs]
+Application time: 0.9174969 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011588 secs]
+Application time: 0.8808055 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016110 secs]
+Application time: 0.9004967 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016486 secs]
+Application time: 0.9029185 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016133 secs]
+Application time: 0.8767881 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016434 secs]
+Application time: 0.9052814 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012983 secs]
+Application time: 0.9893017 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012846 secs]
+Application time: 0.9103800 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013694 secs]
+Application time: 0.9406893 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010107 secs]
+Application time: 0.8975429 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010308 secs]
+Application time: 0.8837831 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009231 secs]
+Application time: 0.9192281 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010863 secs]
+Application time: 1.0194542 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013318 secs]
+Application time: 0.8939376 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013223 secs]
+Application time: 0.8931168 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013221 secs]
+Application time: 0.9020255 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013521 secs]
+Application time: 0.8814563 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013346 secs]
+Application time: 0.8694027 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010352 secs]
+Application time: 0.8139313 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009781 secs]
+Application time: 0.8639365 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014287 secs]
+Application time: 0.9089371 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013273 secs]
+Application time: 0.8964860 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014012 secs]
+Application time: 0.8841940 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013366 secs]
+Application time: 0.8913224 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013553 secs]
+Application time: 0.8813323 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013297 secs]
+Application time: 0.8853937 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013414 secs]
+Application time: 0.8809039 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014132 secs]
+Application time: 0.8864914 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014476 secs]
+Application time: 0.8940470 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013971 secs]
+Application time: 0.8988727 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014480 secs]
+Application time: 0.8814767 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013802 secs]
+Application time: 0.9122462 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013481 secs]
+Application time: 0.9362277 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011551 secs]
+Application time: 0.9177588 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014663 secs]
+Application time: 0.8898792 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012834 secs]
+Application time: 0.8965196 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0028977 secs]
+Application time: 0.8778657 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012897 secs]
+Application time: 0.8736849 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013977 secs]
+Application time: 0.8796361 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013450 secs]
+Application time: 0.9703048 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011401 secs]
+Application time: 0.9806415 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010346 secs]
+Application time: 0.9164701 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011009 secs]
+Application time: 0.9584065 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013636 secs]
+Application time: 0.9045205 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012987 secs]
+Application time: 0.9332725 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012459 secs]
+Application time: 0.8940869 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013629 secs]
+Application time: 0.8782454 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013172 secs]
+Application time: 0.8944532 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013739 secs]
+Application time: 0.8693300 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014478 secs]
+Application time: 0.8680841 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012721 secs]
+Application time: 0.8976078 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010765 secs]
+Application time: 1.0153438 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010170 secs]
+Application time: 0.9965974 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014313 secs]
+Application time: 0.9891203 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013987 secs]
+Application time: 0.9952797 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014040 secs]
+Application time: 0.9872578 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014709 secs]
+Application time: 1.0062869 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009836 secs]
+Application time: 0.8996236 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010577 secs]
+Application time: 0.9060620 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009566 secs]
+Application time: 0.9141555 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010839 secs]
+Application time: 0.9472310 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010306 secs]
+Application time: 0.6242308 seconds
+Warmup (60s) ends:   Tue May 15 23:53:51 GMT 2018
+Warmup (60s) result: 622.74 ops/m
+
+Iteration 1 (120s) begins: Tue May 15 23:53:51 GMT 2018
+Application time: 0.2256369 seconds
+Application time: 0.2431031 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011529 secs]
+Application time: 0.9877310 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010960 secs]
+Application time: 0.9576731 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010817 secs]
+Application time: 0.9401087 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010395 secs]
+Application time: 0.9481623 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010397 secs]
+Application time: 0.9699502 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011305 secs]
+Application time: 0.9400756 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010790 secs]
+Application time: 0.9351524 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010811 secs]
+Application time: 0.9061837 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009853 secs]
+Application time: 0.9167120 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010810 secs]
+Application time: 0.9076306 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010570 secs]
+Application time: 0.9141723 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0035344 secs]
+Application time: 0.9011594 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016628 secs]
+Application time: 0.8973579 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0016525 secs]
+Application time: 0.8984972 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014449 secs]
+Application time: 1.0434908 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012200 secs]
+Application time: 1.0071664 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011295 secs]
+Application time: 0.9185207 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010707 secs]
+Application time: 0.9106891 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010038 secs]
+Application time: 0.9133835 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009938 secs]
+Application time: 0.9173217 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011625 secs]
+Application time: 0.9043469 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010866 secs]
+Application time: 0.8990952 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009815 secs]
+Application time: 0.9098640 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011181 secs]
+Application time: 0.9681725 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010914 secs]
+Application time: 1.0337189 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011793 secs]
+Application time: 1.0300956 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010471 secs]
+Application time: 1.0270152 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011446 secs]
+Application time: 1.0000879 seconds
+Application time: 0.0313889 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012083 secs]
+Application time: 1.0391639 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010328 secs]
+Application time: 0.9904834 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010493 secs]
+Application time: 0.9012872 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011067 secs]
+Application time: 0.8983660 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010652 secs]
+Application time: 0.8977334 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010969 secs]
+Application time: 0.9052056 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011516 secs]
+Application time: 0.9067641 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010523 secs]
+Application time: 0.9330873 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011257 secs]
+Application time: 0.9068879 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010734 secs]
+Application time: 0.9048087 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009988 secs]
+Application time: 0.9854382 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012821 secs]
+Application time: 0.9030349 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013898 secs]
+Application time: 0.9249735 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013860 secs]
+Application time: 0.8981822 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013663 secs]
+Application time: 0.8895653 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013520 secs]
+Application time: 0.8777153 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013876 secs]
+Application time: 0.8828877 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014236 secs]
+Application time: 0.8769100 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013564 secs]
+Application time: 0.8919624 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010816 secs]
+Application time: 0.9257139 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009357 secs]
+Application time: 0.9230594 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011498 secs]
+Application time: 0.9627720 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010898 secs]
+Application time: 0.9701255 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010809 secs]
+Application time: 0.9462058 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010212 secs]
+Application time: 0.9194303 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010102 secs]
+Application time: 0.9163313 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011412 secs]
+Application time: 0.9009338 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009752 secs]
+Application time: 0.9369002 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009319 secs]
+Application time: 0.9049124 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010056 secs]
+Application time: 0.9417216 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0063834 secs]
+Application time: 0.9364856 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012112 secs]
+Application time: 0.9582026 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010376 secs]
+Application time: 0.9196608 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010090 secs]
+Application time: 0.9140271 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0009980 secs]
+Application time: 0.9264569 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011665 secs]
+Application time: 0.9060649 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010008 secs]
+Application time: 0.9081713 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010041 secs]
+Application time: 0.9038927 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010787 secs]
+Application time: 0.9018662 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010754 secs]
+Application time: 0.9310472 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010843 secs]
+Application time: 0.9399966 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011086 secs]
+Application time: 0.9245552 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010299 secs]
+Application time: 0.9282603 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010998 secs]
+Application time: 0.9340380 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010408 secs]
+Application time: 0.9238713 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010398 secs]
+Application time: 0.9202311 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010885 secs]
+Application time: 0.9344596 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013896 secs]
+Application time: 0.8955982 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013641 secs]
+Application time: 0.8912792 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013439 secs]
+Application time: 0.9305917 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010592 secs]
+Application time: 0.9336666 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012580 secs]
+Application time: 0.9179869 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011068 secs]
+Application time: 0.9949111 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010462 secs]
+Application time: 0.9502214 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010352 secs]
+Application time: 0.9497848 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010423 secs]
+Application time: 0.9755919 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010900 secs]
+Application time: 0.9783786 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010714 secs]
+Application time: 0.9470121 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010091 secs]
+Application time: 0.9569678 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010109 secs]
+Application time: 0.9558135 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010590 secs]
+Application time: 0.9668342 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010638 secs]
+Application time: 0.9822987 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014006 secs]
+Application time: 0.9173225 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013334 secs]
+Application time: 0.9202403 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013160 secs]
+Application time: 0.9139433 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012868 secs]
+Application time: 0.9104778 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014556 secs]
+Application time: 0.9074696 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0011708 secs]
+Application time: 0.9600675 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010984 secs]
+Application time: 0.9553391 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010031 secs]
+Application time: 0.9803269 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013184 secs]
+Application time: 1.0583358 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014480 secs]
+Application time: 1.0358194 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014627 secs]
+Application time: 1.0387118 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0015634 secs]
+Application time: 1.0356470 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014249 secs]
+Application time: 1.0219806 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010888 secs]
+Application time: 0.9971222 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010483 secs]
+Application time: 0.9994719 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0010950 secs]
+Application time: 1.0609063 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->14M(256M), 0.0013738 secs]
+Application time: 1.0464440 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->13M(256M), 0.0014260 secs]
+Application time: 1.0493091 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0015454 secs]
+Application time: 1.0329983 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014097 secs]
+Application time: 0.9244053 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013059 secs]
+Application time: 0.9077314 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012263 secs]
+Application time: 0.9179211 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014260 secs]
+Application time: 0.9041054 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->14M(256M), 0.0013019 secs]
+Application time: 0.9074543 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->13M(256M), 0.0013016 secs]
+Application time: 0.9139643 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->14M(256M), 0.0013587 secs]
+Application time: 1.0104785 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->13M(256M), 0.0010786 secs]
+Application time: 1.0756898 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014296 secs]
+Application time: 1.0127539 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0014104 secs]
+Application time: 0.9838136 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0013816 secs]
+Application time: 1.0135892 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->13M(256M), 0.0012724 secs]
+Application time: 1.0095961 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->14M(256M), 0.0014516 secs]
+Application time: 1.0001358 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->14M(256M), 0.0013895 secs]
+Application time: 0.9868012 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->14M(256M), 0.0014239 secs]
+Application time: 0.9924987 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->14M(256M), 0.0013958 secs]
+Application time: 1.0219590 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->14M(256M), 0.0011279 secs]
+Application time: 0.9188198 seconds
+Iteration 1 (120s) ends:   Tue May 15 23:55:51 GMT 2018
+Iteration 1 (120s) result: 612.00 ops/m
+
+Valid run!
+Score on crypto.rsa: 612.00 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   crypto.signverify
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+Application time: 0.2739347 seconds
+
+Warmup (60s) begins: Tue May 15 23:55:51 GMT 2018
+Application time: 0.0007267 seconds
+Application time: 0.0006677 seconds
+Application time: 0.0072290 seconds
+Application time: 0.5432673 seconds
+[GC pause (G1 Evacuation Pause) (young) 192M->17M(256M), 0.0088119 secs]
+Application time: 0.0016353 seconds
+Application time: 0.0000413 seconds
+Application time: 0.0000419 seconds
+Application time: 0.0000307 seconds
+Application time: 0.4195066 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->16M(256M), 0.0168485 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001982 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0139345 secs]
+Application time: 0.0141897 seconds
+[GC remark, 0.0028324 secs]
+Application time: 0.0000353 seconds
+[GC cleanup 18M->18M(256M), 0.0003733 secs]
+Application time: 0.8868713 seconds
+[GC pause (G1 Humongous Allocation) (young) 134M->16M(256M), 0.0289765 secs]
+Application time: 0.8521547 seconds
+[GC pause (G1 Humongous Allocation) (mixed) 135M->15M(256M), 0.0284979 secs]
+Application time: 0.3715833 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0178801 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0012067 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0132336 secs]
+Application time: 0.0152751 seconds
+[GC remark, 0.0038015 secs]
+Application time: 0.0000330 seconds
+[GC cleanup 18M->18M(256M), 0.0004169 secs]
+Application time: 0.9037918 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0217580 secs]
+Application time: 0.3618958 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0180976 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0019970 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058902 secs]
+Application time: 0.0079505 seconds
+[GC remark, 0.0036824 secs]
+Application time: 0.0000448 seconds
+[GC cleanup 16M->16M(256M), 0.0004382 secs]
+Application time: 0.8841551 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0183512 secs]
+Application time: 0.3746413 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0161532 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002407 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0141857 secs]
+Application time: 0.0144989 seconds
+[GC remark, 0.0032774 secs]
+Application time: 0.0016517 seconds
+[GC cleanup 18M->18M(256M), 0.0003545 secs]
+Application time: 0.8530836 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0281211 secs]
+Application time: 0.3760691 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0199743 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0101720 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0156381 secs]
+Application time: 0.0258945 seconds
+[GC remark, 0.0037981 secs]
+Application time: 0.0000582 seconds
+[GC cleanup 17M->17M(256M), 0.0004289 secs]
+Application time: 0.8700844 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0184902 secs]
+Application time: 0.3568770 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0160997 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0076223 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0160253 secs]
+Application time: 0.0237229 seconds
+[GC remark, 0.0032219 secs]
+Application time: 0.0000502 seconds
+[GC cleanup 18M->18M(256M), 0.0004016 secs]
+Application time: 0.8981187 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0246640 secs]
+Application time: 0.3776093 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0166182 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0035389 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0062802 secs]
+Application time: 0.0098678 seconds
+[GC remark, 0.0033488 secs]
+Application time: 0.0000486 seconds
+[GC cleanup 16M->16M(256M), 0.0003505 secs]
+Application time: 0.8545426 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0246998 secs]
+Application time: 0.3302851 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0149415 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0049442 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0060355 secs]
+Application time: 0.0110529 seconds
+[GC remark, 0.0032639 secs]
+Application time: 0.0000484 seconds
+[GC cleanup 18M->18M(256M), 0.0003268 secs]
+Application time: 0.7390549 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0194470 secs]
+Application time: 0.3002815 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0139048 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0063499 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054087 secs]
+Application time: 0.0118221 seconds
+[GC remark, 0.0029950 secs]
+Application time: 0.0000500 seconds
+[GC cleanup 18M->18M(256M), 0.0003332 secs]
+Application time: 0.6882379 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0237756 secs]
+Application time: 0.3106503 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0144637 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001063 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0147087 secs]
+Application time: 0.0146978 seconds
+[GC remark, 0.0032069 secs]
+Application time: 0.0000431 seconds
+[GC cleanup 17M->17M(256M), 0.0003566 secs]
+Application time: 0.7085591 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0158561 secs]
+Application time: 0.3190559 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0146745 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0022859 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0130292 secs]
+Application time: 0.0153919 seconds
+[GC remark, 0.0030369 secs]
+Application time: 0.0000565 seconds
+[GC cleanup 18M->18M(256M), 0.0003705 secs]
+Application time: 0.7577532 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0288835 secs]
+Application time: 0.3330904 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176017 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0064595 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057032 secs]
+Application time: 0.0122096 seconds
+[GC remark, 0.0033474 secs]
+Application time: 0.0000501 seconds
+[GC cleanup 18M->18M(256M), 0.0003789 secs]
+Application time: 0.7737566 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0207621 secs]
+Application time: 0.3566457 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0178127 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0028166 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0130566 secs]
+Application time: 0.0159358 seconds
+[GC remark, 0.0036886 secs]
+Application time: 0.0047598 seconds
+[GC cleanup 19M->19M(256M), 0.0004671 secs]
+Application time: 0.8460723 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0294285 secs]
+Application time: 0.3722391 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0179708 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0049988 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0157377 secs]
+Application time: 0.0208262 seconds
+[GC remark, 0.0036815 secs]
+Application time: 0.0000528 seconds
+[GC cleanup 20M->20M(256M), 0.0004730 secs]
+Application time: 0.8263325 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0206851 secs]
+Application time: 0.3791939 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0177823 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0079445 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0132031 secs]
+Application time: 0.0212065 seconds
+[GC remark, 0.0043784 secs]
+Application time: 0.0000555 seconds
+[GC cleanup 19M->19M(256M), 0.0039540 secs]
+Application time: 0.7407480 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0234078 secs]
+Application time: 0.3172270 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0138572 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0079689 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0051481 secs]
+Application time: 0.0131604 seconds
+[GC remark, 0.0029241 secs]
+Application time: 0.0000460 seconds
+[GC cleanup 19M->19M(256M), 0.0003275 secs]
+Application time: 0.7179999 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0172136 secs]
+Application time: 0.3130862 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0146477 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0066437 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056137 secs]
+Application time: 0.0122998 seconds
+[GC remark, 0.0029102 secs]
+Application time: 0.0000501 seconds
+[GC cleanup 18M->18M(256M), 0.0003476 secs]
+Application time: 0.7370709 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0259303 secs]
+Application time: 0.3501473 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0146664 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0012601 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0117845 secs]
+Application time: 0.0131216 seconds
+[GC remark, 0.0042358 secs]
+Application time: 0.0000466 seconds
+[GC cleanup 18M->18M(256M), 0.0003424 secs]
+Application time: 0.7504160 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0181599 secs]
+Application time: 0.3414537 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0149464 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001047 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0158986 secs]
+Application time: 0.0158894 seconds
+[GC remark, 0.0033648 secs]
+Application time: 0.0000520 seconds
+[GC cleanup 18M->18M(256M), 0.0005024 secs]
+Application time: 0.7156431 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0234992 secs]
+Application time: 0.3183646 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0142551 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0056023 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0119866 secs]
+Application time: 0.0176463 seconds
+[GC remark, 0.0031269 secs]
+Application time: 0.0000750 seconds
+[GC cleanup 18M->18M(256M), 0.0003415 secs]
+Application time: 0.7161024 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0173388 secs]
+Application time: 0.3120310 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0138440 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0047958 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0051736 secs]
+Application time: 0.0100117 seconds
+[GC remark, 0.0027229 secs]
+Application time: 0.0000466 seconds
+[GC cleanup 18M->18M(256M), 0.0003253 secs]
+Application time: 0.7066170 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0225086 secs]
+Application time: 0.3125782 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0139714 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0075430 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056189 secs]
+Application time: 0.0132115 seconds
+[GC remark, 0.0029967 secs]
+Application time: 0.0000471 seconds
+[GC cleanup 18M->18M(256M), 0.0005347 secs]
+Application time: 0.8121595 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0245162 secs]
+Application time: 0.3080196 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0143419 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0072285 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0074042 secs]
+Application time: 0.0146829 seconds
+[GC remark, 0.0029368 secs]
+Application time: 0.0000448 seconds
+[GC cleanup 17M->17M(256M), 0.0004152 secs]
+Application time: 0.7022092 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0155667 secs]
+Application time: 0.2972069 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0139211 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0035796 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0109041 secs]
+Application time: 0.0145323 seconds
+[GC remark, 0.0028511 secs]
+Application time: 0.0000598 seconds
+[GC cleanup 18M->18M(256M), 0.0003658 secs]
+Application time: 0.6963927 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0236496 secs]
+Application time: 0.3016404 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0136908 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0042421 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0051161 secs]
+Application time: 0.0094158 seconds
+[GC remark, 0.0026510 secs]
+Application time: 0.0000446 seconds
+[GC cleanup 16M->16M(256M), 0.0003261 secs]
+Application time: 0.6651176 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0153244 secs]
+Application time: 0.2876823 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0135862 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018087 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0137093 secs]
+Application time: 0.0155675 seconds
+[GC remark, 0.0027686 secs]
+Application time: 0.0000456 seconds
+[GC cleanup 18M->18M(256M), 0.0003324 secs]
+Application time: 0.6844604 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0228327 secs]
+Application time: 0.2985279 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0139760 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0044405 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0078306 secs]
+Application time: 0.0123216 seconds
+[GC remark, 0.0027228 secs]
+Application time: 0.0000479 seconds
+[GC cleanup 18M->18M(256M), 0.0003365 secs]
+Application time: 0.7293577 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0203957 secs]
+Application time: 0.3279387 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173585 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0056367 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057507 secs]
+Application time: 0.0114549 seconds
+[GC remark, 0.0036701 secs]
+Application time: 0.0000554 seconds
+[GC cleanup 19M->19M(256M), 0.0004186 secs]
+Application time: 0.7128319 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0279719 secs]
+Application time: 0.3040205 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172434 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0034361 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0121056 secs]
+Application time: 0.0156090 seconds
+[GC remark, 0.0035091 secs]
+Application time: 0.0000407 seconds
+[GC cleanup 19M->19M(256M), 0.0004311 secs]
+Application time: 0.7124999 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0201544 secs]
+Application time: 0.3192630 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0170554 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002632 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0135745 secs]
+Application time: 0.0139544 seconds
+[GC remark, 0.0057296 secs]
+Application time: 0.0000523 seconds
+[GC cleanup 16M->16M(256M), 0.0006197 secs]
+Application time: 0.7369428 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0293630 secs]
+Application time: 0.3187693 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171517 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002712 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0147879 secs]
+Application time: 0.0151257 seconds
+[GC remark, 0.0038515 secs]
+Application time: 0.0000617 seconds
+[GC cleanup 18M->18M(256M), 0.0004149 secs]
+Application time: 0.7347694 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0209070 secs]
+Application time: 0.3188596 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172990 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002705 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0100290 secs]
+Application time: 0.0103724 seconds
+[GC remark, 0.0035463 secs]
+Application time: 0.0000390 seconds
+[GC cleanup 18M->18M(256M), 0.0004209 secs]
+Application time: 0.7343052 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0282256 secs]
+Application time: 0.3058161 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171657 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0020583 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0102033 secs]
+Application time: 0.0123223 seconds
+[GC remark, 0.0033813 secs]
+Application time: 0.0000343 seconds
+[GC cleanup 17M->17M(256M), 0.0004050 secs]
+Application time: 0.7125127 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0209752 secs]
+Application time: 0.3171682 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172056 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0024394 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059142 secs]
+Application time: 0.0084316 seconds
+[GC remark, 0.0034996 secs]
+Application time: 0.0020657 seconds
+[GC cleanup 18M->18M(256M), 0.0003982 secs]
+Application time: 0.7039272 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0276612 secs]
+Application time: 0.3093095 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174013 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0028467 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054587 secs]
+Application time: 0.0083428 seconds
+[GC remark, 0.0036815 secs]
+Application time: 0.0000438 seconds
+[GC cleanup 17M->17M(256M), 0.0004340 secs]
+Application time: 0.7977962 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0193404 secs]
+Application time: 0.3324534 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0151904 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001267 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0175576 secs]
+Application time: 0.0177509 seconds
+[GC remark, 0.0030823 secs]
+Application time: 0.0000420 seconds
+[GC cleanup 18M->18M(256M), 0.0003267 secs]
+Application time: 0.8500349 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0254075 secs]
+Application time: 0.3648448 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0158627 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0067420 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0064064 secs]
+Application time: 0.0132175 seconds
+[GC remark, 0.0030406 secs]
+Application time: 0.0000432 seconds
+[GC cleanup 18M->18M(256M), 0.0003358 secs]
+Application time: 0.8418320 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0237686 secs]
+Application time: 0.3689309 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0191708 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001314 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0064466 secs]
+Application time: 0.0066532 seconds
+[GC remark, 0.0037614 secs]
+Application time: 0.0000413 seconds
+[GC cleanup 18M->18M(256M), 0.0004317 secs]
+Application time: 0.8440095 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0221531 secs]
+Application time: 0.3639821 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0184060 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001425 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0140839 secs]
+Application time: 0.0142926 seconds
+[GC remark, 0.0039125 secs]
+Application time: 0.0000351 seconds
+[GC cleanup 18M->18M(256M), 0.0004407 secs]
+Application time: 0.7681579 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0199757 secs]
+Application time: 0.3292342 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174170 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0063740 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058598 secs]
+Application time: 0.0123119 seconds
+[GC remark, 0.0037512 secs]
+Application time: 0.0000369 seconds
+[GC cleanup 18M->18M(256M), 0.0004260 secs]
+Application time: 0.7352659 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0276048 secs]
+Application time: 0.3164838 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0175605 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0069080 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057753 secs]
+Application time: 0.0127656 seconds
+[GC remark, 0.0036694 secs]
+Application time: 0.0053503 seconds
+[GC cleanup 18M->18M(256M), 0.0006085 secs]
+Application time: 0.6998501 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0210187 secs]
+Application time: 0.3036997 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171708 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002838 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120664 secs]
+Application time: 0.0123989 seconds
+[GC remark, 0.0037475 secs]
+Application time: 0.0000977 seconds
+[GC cleanup 17M->17M(256M), 0.0004260 secs]
+Application time: 0.7238350 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0276467 secs]
+Application time: 0.3212895 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174583 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0054849 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059310 secs]
+Application time: 0.0114707 seconds
+[GC remark, 0.0037366 secs]
+Application time: 0.0059129 seconds
+[GC cleanup 18M->18M(256M), 0.0004619 secs]
+Application time: 0.7066852 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0202210 secs]
+Application time: 0.3365117 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0144347 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0038880 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0133888 secs]
+Application time: 0.0173165 seconds
+[GC remark, 0.0029694 secs]
+Application time: 0.0000470 seconds
+[GC cleanup 18M->18M(256M), 0.0003441 secs]
+Application time: 0.7271500 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0223891 secs]
+Application time: 0.2948523 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0137861 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0052939 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054699 secs]
+Application time: 0.0108042 seconds
+[GC remark, 0.0028848 secs]
+Application time: 0.0073416 seconds
+[GC cleanup 18M->18M(256M), 0.0003904 secs]
+Application time: 0.6930743 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0158567 secs]
+Application time: 0.2899435 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0135284 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0054221 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0051857 secs]
+Application time: 0.0106653 seconds
+[GC remark, 0.0028324 secs]
+Application time: 0.0000403 seconds
+[GC cleanup 18M->18M(256M), 0.0003327 secs]
+Application time: 0.6484023 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0222524 secs]
+Application time: 0.2984844 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0153180 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0050427 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0123080 secs]
+Application time: 0.0174211 seconds
+[GC remark, 0.0033272 secs]
+Application time: 0.0062619 seconds
+[GC cleanup 19M->19M(256M), 0.0003284 secs]
+Application time: 0.6903004 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0176862 secs]
+Application time: 0.3107839 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0143958 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0030921 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0138434 secs]
+Application time: 0.0169864 seconds
+[GC remark, 0.0031951 secs]
+Application time: 0.0000369 seconds
+[GC cleanup 19M->19M(256M), 0.0003711 secs]
+Application time: 0.7035800 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0233067 secs]
+Application time: 0.3029507 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0141783 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016556 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0132712 secs]
+Application time: 0.0149914 seconds
+[GC remark, 0.0029514 secs]
+Application time: 0.0000350 seconds
+[GC cleanup 17M->17M(256M), 0.0003690 secs]
+Application time: 0.7139230 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0238712 secs]
+Application time: 0.3208631 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0146413 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0023429 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0147403 secs]
+Application time: 0.0171845 seconds
+[GC remark, 0.0035144 secs]
+Application time: 0.0000536 seconds
+[GC cleanup 18M->18M(256M), 0.0006639 secs]
+Application time: 0.7211372 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0161779 secs]
+Application time: 0.2834236 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0138316 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001305 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0050495 secs]
+Application time: 0.0100623 seconds
+[GC remark, 0.0028245 secs]
+Application time: 0.0000396 seconds
+[GC cleanup 18M->18M(256M), 0.0003288 secs]
+Application time: 0.6987176 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0223605 secs]
+Application time: 0.3107442 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0147448 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002311 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054393 secs]
+Application time: 0.0110837 seconds
+[GC remark, 0.0032847 secs]
+Application time: 0.0000499 seconds
+[GC cleanup 18M->18M(256M), 0.0003516 secs]
+Application time: 0.2032051 seconds
+Warmup (60s) ends:   Tue May 15 23:56:52 GMT 2018
+Warmup (60s) result: 204.99 ops/m
+
+Iteration 1 (120s) begins: Tue May 15 23:56:52 GMT 2018
+Application time: 0.0520614 seconds
+Application time: 0.5675200 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0163480 secs]
+Application time: 0.3304196 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0145410 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002160 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054459 secs]
+Application time: 0.0102417 seconds
+[GC remark, 0.0029479 secs]
+Application time: 0.0000432 seconds
+[GC cleanup 17M->17M(256M), 0.0003290 secs]
+Application time: 0.7207403 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0230042 secs]
+Application time: 0.3270557 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0144374 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002526 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056208 secs]
+Application time: 0.0110617 seconds
+[GC remark, 0.0031015 secs]
+Application time: 0.0000476 seconds
+[GC cleanup 17M->17M(256M), 0.0003674 secs]
+Application time: 0.7491652 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0201720 secs]
+Application time: 0.3326624 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0182313 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0032505 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0151926 secs]
+Application time: 0.0185464 seconds
+[GC remark, 0.0038965 secs]
+Application time: 0.0000458 seconds
+[GC cleanup 19M->19M(256M), 0.0004132 secs]
+Application time: 0.7275125 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0273912 secs]
+Application time: 0.3091752 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172662 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0029804 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054954 secs]
+Application time: 0.0085342 seconds
+[GC remark, 0.0036406 secs]
+Application time: 0.0000415 seconds
+[GC cleanup 17M->17M(256M), 0.0004120 secs]
+Application time: 0.7386698 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0197833 secs]
+Application time: 0.3181844 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173830 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0027295 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058111 secs]
+Application time: 0.0086202 seconds
+[GC remark, 0.0036999 secs]
+Application time: 0.0000423 seconds
+[GC cleanup 16M->16M(256M), 0.0004150 secs]
+Application time: 0.7385065 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0278205 secs]
+Application time: 0.3172562 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172585 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002628 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0176794 secs]
+Application time: 0.0180351 seconds
+[GC remark, 0.0036813 secs]
+Application time: 0.0000575 seconds
+[GC cleanup 19M->19M(256M), 0.0004160 secs]
+Application time: 0.7288685 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0201548 secs]
+Application time: 0.3207193 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 67M->15M(256M), 0.0176588 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0019755 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0156955 secs]
+Application time: 0.0177453 seconds
+[GC remark, 0.0037929 secs]
+Application time: 0.0000696 seconds
+[GC cleanup 18M->18M(256M), 0.0004099 secs]
+Application time: 0.7166312 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0276796 secs]
+Application time: 0.3166075 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0174407 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0050112 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055180 secs]
+Application time: 0.0105739 seconds
+[GC remark, 0.0037171 secs]
+Application time: 0.0048878 seconds
+[GC cleanup 18M->18M(256M), 0.0004039 secs]
+Application time: 0.7372290 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0176538 secs]
+Application time: 0.3331232 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0149161 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0052116 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0118761 secs]
+Application time: 0.0171499 seconds
+[GC remark, 0.0031462 secs]
+Application time: 0.0000528 seconds
+[GC cleanup 18M->18M(256M), 0.0003569 secs]
+Application time: 0.7556417 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0247540 secs]
+Application time: 0.3393502 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0150468 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0049401 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0160793 secs]
+Application time: 0.0211080 seconds
+[GC remark, 0.0031744 secs]
+Application time: 0.0000494 seconds
+[GC cleanup 19M->19M(256M), 0.0003628 secs]
+Application time: 0.7785735 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0234031 secs]
+Application time: 0.3111483 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0144311 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0008829 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0194043 secs]
+Application time: 0.0203431 seconds
+[GC remark, 0.0031793 secs]
+Application time: 0.0000557 seconds
+[GC cleanup 18M->18M(256M), 0.0003621 secs]
+Application time: 0.7181455 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0169872 secs]
+Application time: 0.3165216 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0143346 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0055326 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0135990 secs]
+Application time: 0.0191867 seconds
+[GC remark, 0.0033478 secs]
+Application time: 0.0000609 seconds
+[GC cleanup 19M->19M(256M), 0.0003766 secs]
+Application time: 0.6588043 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0164921 secs]
+Application time: 0.2984365 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0137889 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0063035 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0050720 secs]
+Application time: 0.0114262 seconds
+[GC remark, 0.0030489 secs]
+Application time: 0.0000495 seconds
+[GC cleanup 17M->17M(256M), 0.0003280 secs]
+Application time: 0.6900548 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0213490 secs]
+Application time: 0.3034217 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0146264 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0097683 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055521 secs]
+Application time: 0.0153726 seconds
+[GC remark, 0.0030861 secs]
+Application time: 0.0000380 seconds
+[GC cleanup 19M->19M(256M), 0.0003449 secs]
+Application time: 0.6826364 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0193237 secs]
+Application time: 0.3111675 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0145027 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0067293 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0053744 secs]
+Application time: 0.0121726 seconds
+[GC remark, 0.0030827 secs]
+Application time: 0.0000442 seconds
+[GC cleanup 18M->18M(256M), 0.0003398 secs]
+Application time: 0.7256584 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0230924 secs]
+Application time: 0.3070935 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0140539 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002005 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0129747 secs]
+Application time: 0.0132311 seconds
+[GC remark, 0.0083273 secs]
+Application time: 0.0000395 seconds
+[GC cleanup 18M->18M(256M), 0.0005987 secs]
+Application time: 0.6673634 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0263297 secs]
+Application time: 0.3158805 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171323 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001109 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0053399 secs]
+Application time: 0.0055096 seconds
+[GC remark, 0.0036422 secs]
+Application time: 0.0000425 seconds
+[GC cleanup 16M->16M(256M), 0.0004311 secs]
+Application time: 0.7138265 seconds
+[GC pause (G1 Humongous Allocation) (young) 135M->15M(256M), 0.0195282 secs]
+Application time: 0.3292550 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0147039 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000982 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057254 secs]
+Application time: 0.0058730 seconds
+[GC remark, 0.0030336 secs]
+Application time: 0.0000389 seconds
+[GC cleanup 16M->16M(256M), 0.0003561 secs]
+Application time: 0.7596854 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0240759 secs]
+Application time: 0.2977264 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0142840 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001346 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0050055 secs]
+Application time: 0.0052814 seconds
+[GC remark, 0.0029675 secs]
+Application time: 0.0000349 seconds
+[GC cleanup 16M->16M(256M), 0.0003478 secs]
+Application time: 0.7052980 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0167802 secs]
+Application time: 0.2961089 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0141086 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001151 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0049793 secs]
+Application time: 0.0058534 seconds
+[GC remark, 0.0028356 secs]
+Application time: 0.0000314 seconds
+[GC cleanup 16M->16M(256M), 0.0003259 secs]
+Application time: 0.6640317 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0216482 secs]
+Application time: 0.2833653 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0140926 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001334 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0128911 secs]
+Application time: 0.0130745 seconds
+[GC remark, 0.0029007 secs]
+Application time: 0.0070383 seconds
+[GC cleanup 18M->18M(256M), 0.0003056 secs]
+Application time: 0.6851351 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0162497 secs]
+Application time: 0.3088685 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0138280 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0092314 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052025 secs]
+Application time: 0.0144842 seconds
+[GC remark, 0.0029032 secs]
+Application time: 0.0000542 seconds
+[GC cleanup 19M->19M(256M), 0.0003505 secs]
+Application time: 0.6830415 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0233312 secs]
+Application time: 0.3099473 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0155728 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002006 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0084968 secs]
+Application time: 0.0087469 seconds
+[GC remark, 0.0032563 secs]
+Application time: 0.0000817 seconds
+[GC cleanup 17M->17M(256M), 0.0004429 secs]
+Application time: 0.7147444 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0208684 secs]
+Application time: 0.3073911 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171664 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0045162 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0158294 secs]
+Application time: 0.0204003 seconds
+[GC remark, 0.0034708 secs]
+Application time: 0.0000551 seconds
+[GC cleanup 19M->19M(256M), 0.0004124 secs]
+Application time: 0.6902284 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0282687 secs]
+Application time: 0.3186779 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0177468 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0050513 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058964 secs]
+Application time: 0.0109965 seconds
+[GC remark, 0.0037451 secs]
+Application time: 0.0003968 seconds
+[GC cleanup 18M->18M(256M), 0.0004394 secs]
+Application time: 0.7171222 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->14M(256M), 0.0216056 secs]
+Application time: 0.2990397 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174571 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0052200 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0121364 secs]
+Application time: 0.0174187 seconds
+[GC remark, 0.0033093 secs]
+Application time: 0.0000532 seconds
+[GC cleanup 19M->19M(256M), 0.0004092 secs]
+Application time: 0.6906522 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0205589 secs]
+Application time: 0.3443411 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0149807 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0078756 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059617 secs]
+Application time: 0.0139048 seconds
+[GC remark, 0.0029727 secs]
+Application time: 0.0000450 seconds
+[GC cleanup 19M->19M(256M), 0.0003383 secs]
+Application time: 0.7192559 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0237755 secs]
+Application time: 0.2851797 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0136633 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0043113 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0119446 secs]
+Application time: 0.0163033 seconds
+[GC remark, 0.0028144 secs]
+Application time: 0.0000642 seconds
+[GC cleanup 18M->18M(256M), 0.0003459 secs]
+Application time: 0.6582272 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0154559 secs]
+Application time: 0.2839760 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0135073 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0071360 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0048927 secs]
+Application time: 0.0120736 seconds
+[GC remark, 0.0028687 secs]
+Application time: 0.0000473 seconds
+[GC cleanup 19M->19M(256M), 0.0003424 secs]
+Application time: 0.6752733 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0258824 secs]
+Application time: 0.3145600 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0140051 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0057142 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052292 secs]
+Application time: 0.0109906 seconds
+[GC remark, 0.0028517 secs]
+Application time: 0.0000481 seconds
+[GC cleanup 18M->18M(256M), 0.0003418 secs]
+Application time: 0.6888674 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0187803 secs]
+Application time: 0.3118367 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0140076 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0007040 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0119788 secs]
+Application time: 0.0127311 seconds
+[GC remark, 0.0028332 secs]
+Application time: 0.0000559 seconds
+[GC cleanup 19M->19M(256M), 0.0003504 secs]
+Application time: 0.6620966 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0285653 secs]
+Application time: 0.2959244 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172845 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0044751 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120082 secs]
+Application time: 0.0165302 seconds
+[GC remark, 0.0034397 secs]
+Application time: 0.0000497 seconds
+[GC cleanup 19M->19M(256M), 0.0004188 secs]
+Application time: 0.6945018 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0198019 secs]
+Application time: 0.3037910 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172604 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0083445 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057457 secs]
+Application time: 0.0141569 seconds
+[GC remark, 0.0034249 secs]
+Application time: 0.0000484 seconds
+[GC cleanup 18M->18M(256M), 0.0004230 secs]
+Application time: 0.6926363 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0276974 secs]
+Application time: 0.3041590 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172978 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0079281 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056625 secs]
+Application time: 0.0136497 seconds
+[GC remark, 0.0037978 secs]
+Application time: 0.0000569 seconds
+[GC cleanup 19M->19M(256M), 0.0004352 secs]
+Application time: 0.7411857 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0169779 secs]
+Application time: 0.3335809 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0152931 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0065743 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0062655 secs]
+Application time: 0.0128949 seconds
+[GC remark, 0.0031901 secs]
+Application time: 0.0000653 seconds
+[GC cleanup 18M->18M(256M), 0.0003663 secs]
+Application time: 0.7459285 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0235768 secs]
+Application time: 0.3728631 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0185446 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0044119 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0123181 secs]
+Application time: 0.0167930 seconds
+[GC remark, 0.0039356 secs]
+Application time: 0.0000485 seconds
+[GC cleanup 18M->18M(256M), 0.0004374 secs]
+Application time: 0.8170631 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0217148 secs]
+Application time: 0.3416061 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0188269 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0062181 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054735 secs]
+Application time: 0.0117703 seconds
+[GC remark, 0.0038380 secs]
+Application time: 0.0000744 seconds
+[GC cleanup 18M->18M(256M), 0.0004376 secs]
+Application time: 0.7632976 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0205726 secs]
+Application time: 0.3248228 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0175283 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0062338 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059834 secs]
+Application time: 0.0122773 seconds
+[GC remark, 0.0038280 secs]
+Application time: 0.0000714 seconds
+[GC cleanup 17M->17M(256M), 0.0004425 secs]
+Application time: 0.7399746 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0282633 secs]
+Application time: 0.3232312 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173007 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0004246 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0053878 secs]
+Application time: 0.0058783 seconds
+[GC remark, 0.0034660 secs]
+Application time: 0.0000463 seconds
+[GC cleanup 17M->17M(256M), 0.0004267 secs]
+Application time: 0.7517544 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0213679 secs]
+Application time: 0.3198855 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0177515 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002394 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055607 secs]
+Application time: 0.0059402 seconds
+[GC remark, 0.0038516 secs]
+Application time: 0.0091073 seconds
+[GC cleanup 18M->18M(256M), 0.0004225 secs]
+Application time: 0.7422709 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0259258 secs]
+Application time: 0.3242715 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0145939 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0078591 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056217 secs]
+Application time: 0.0135554 seconds
+[GC remark, 0.0029008 secs]
+Application time: 0.0000455 seconds
+[GC cleanup 18M->18M(256M), 0.0003476 secs]
+Application time: 0.7441852 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0171962 secs]
+Application time: 0.3230674 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0145465 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0071317 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055756 secs]
+Application time: 0.0127585 seconds
+[GC remark, 0.0042223 secs]
+Application time: 0.0000506 seconds
+[GC cleanup 18M->18M(256M), 0.0003607 secs]
+Application time: 0.7635445 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0280754 secs]
+Application time: 0.3428779 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176474 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0052363 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0157378 secs]
+Application time: 0.0210575 seconds
+[GC remark, 0.0039216 secs]
+Application time: 0.0000555 seconds
+[GC cleanup 19M->19M(256M), 0.0004374 secs]
+Application time: 0.8446021 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0221005 secs]
+Application time: 0.3271881 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174800 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0080617 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057751 secs]
+Application time: 0.0138994 seconds
+[GC remark, 0.0034167 secs]
+Application time: 0.0000612 seconds
+[GC cleanup 17M->17M(256M), 0.0010971 secs]
+Application time: 0.7130934 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0236101 secs]
+Application time: 0.3183054 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174414 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0027361 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056021 secs]
+Application time: 0.0083755 seconds
+[GC remark, 0.0034205 secs]
+Application time: 0.0000452 seconds
+[GC cleanup 17M->17M(256M), 0.0004110 secs]
+Application time: 0.7285579 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0196119 secs]
+Application time: 0.3207545 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0170230 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001510 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0132975 secs]
+Application time: 0.0135314 seconds
+[GC remark, 0.0034302 secs]
+Application time: 0.0000425 seconds
+[GC cleanup 18M->18M(256M), 0.0003977 secs]
+Application time: 0.7209990 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0282118 secs]
+Application time: 0.3217765 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176262 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0070664 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054690 secs]
+Application time: 0.0126118 seconds
+[GC remark, 0.0035195 secs]
+Application time: 0.0000366 seconds
+[GC cleanup 19M->19M(256M), 0.0004074 secs]
+Application time: 0.7348185 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0204942 secs]
+Application time: 0.3259855 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0174867 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0046579 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0121411 secs]
+Application time: 0.0168751 seconds
+[GC remark, 0.0036839 secs]
+Application time: 0.0000736 seconds
+[GC cleanup 18M->18M(256M), 0.0004186 secs]
+Application time: 0.7235165 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0279627 secs]
+Application time: 0.3220910 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176472 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0041620 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052684 secs]
+Application time: 0.0094888 seconds
+[GC remark, 0.0044263 secs]
+Application time: 0.0000468 seconds
+[GC cleanup 18M->18M(256M), 0.0004149 secs]
+Application time: 0.7358454 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0207629 secs]
+Application time: 0.3199547 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171717 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0048522 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052795 secs]
+Application time: 0.0101893 seconds
+[GC remark, 0.0037351 secs]
+Application time: 0.0026092 seconds
+[GC cleanup 18M->18M(256M), 0.0004650 secs]
+Application time: 0.7190742 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0282962 secs]
+Application time: 0.3170151 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0174216 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002505 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055044 secs]
+Application time: 0.0106741 seconds
+[GC remark, 0.0037459 secs]
+Application time: 0.0000393 seconds
+[GC cleanup 17M->17M(256M), 0.0004052 secs]
+Application time: 0.7304716 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0207683 secs]
+Application time: 0.3135571 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174425 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0029442 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0138012 secs]
+Application time: 0.0168264 seconds
+[GC remark, 0.0040187 secs]
+Application time: 0.0000476 seconds
+[GC cleanup 18M->18M(256M), 0.0004233 secs]
+Application time: 0.7247530 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0315901 secs]
+Application time: 0.3581140 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0173845 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0071570 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059403 secs]
+Application time: 0.0131624 seconds
+[GC remark, 0.0037085 secs]
+Application time: 0.0000391 seconds
+[GC cleanup 18M->18M(256M), 0.0004202 secs]
+Application time: 0.7546405 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0196062 secs]
+Application time: 0.3122831 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171019 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0053909 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0119648 secs]
+Application time: 0.0174407 seconds
+[GC remark, 0.0035346 secs]
+Application time: 0.0000561 seconds
+[GC cleanup 19M->19M(256M), 0.0004511 secs]
+Application time: 0.6929898 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0285395 secs]
+Application time: 0.3283497 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0175870 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0053613 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057809 secs]
+Application time: 0.0112135 seconds
+[GC remark, 0.0048604 secs]
+Application time: 0.0094520 seconds
+[GC cleanup 19M->19M(256M), 0.0004642 secs]
+Application time: 0.7364340 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->14M(256M), 0.0218619 secs]
+Application time: 0.3435884 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0175343 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0063812 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056421 secs]
+Application time: 0.0120887 seconds
+[GC remark, 0.0035789 secs]
+Application time: 0.0000590 seconds
+[GC cleanup 17M->17M(256M), 0.0004440 secs]
+Application time: 0.7260934 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0195221 secs]
+Application time: 0.3122600 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171537 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0082624 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058876 secs]
+Application time: 0.0142324 seconds
+[GC remark, 0.0037790 secs]
+Application time: 0.0000393 seconds
+[GC cleanup 19M->19M(256M), 0.0004338 secs]
+Application time: 0.7151782 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0277514 secs]
+Application time: 0.3155102 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0171383 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0021380 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059364 secs]
+Application time: 0.0081850 seconds
+[GC remark, 0.0035257 secs]
+Application time: 0.0097235 seconds
+[GC cleanup 19M->19M(256M), 0.0004166 secs]
+Application time: 0.6994494 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0229398 secs]
+Application time: 0.3203323 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0175629 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0070572 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058940 secs]
+Application time: 0.0130013 seconds
+[GC remark, 0.0035989 secs]
+Application time: 0.0048722 seconds
+[GC cleanup 18M->18M(256M), 0.0006009 secs]
+Application time: 0.8069505 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0173910 secs]
+Application time: 0.3352326 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0152348 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002013 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056100 secs]
+Application time: 0.0058830 seconds
+[GC remark, 0.0028955 secs]
+Application time: 0.0000426 seconds
+[GC cleanup 17M->17M(256M), 0.0003166 secs]
+Application time: 0.8170308 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0306065 secs]
+Application time: 0.3362466 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0154599 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0014673 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055376 secs]
+Application time: 0.0070621 seconds
+[GC remark, 0.0030139 secs]
+Application time: 0.0040689 seconds
+[GC cleanup 18M->18M(256M), 0.0003134 secs]
+Application time: 0.7707190 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0184540 secs]
+Application time: 0.3339901 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0150987 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002065 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054398 secs]
+Application time: 0.0057125 seconds
+[GC remark, 0.0027872 secs]
+Application time: 0.0000439 seconds
+[GC cleanup 17M->17M(256M), 0.0003153 secs]
+Application time: 0.7743532 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0243453 secs]
+Application time: 0.3324143 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0153565 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0025753 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054288 secs]
+Application time: 0.0080707 seconds
+[GC remark, 0.0028242 secs]
+Application time: 0.0073061 seconds
+[GC cleanup 19M->19M(256M), 0.0005603 secs]
+Application time: 0.7528642 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0176139 secs]
+Application time: 0.3273879 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0148397 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001546 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055484 secs]
+Application time: 0.0081659 seconds
+[GC remark, 0.0028894 secs]
+Application time: 0.0069878 seconds
+[GC cleanup 18M->18M(256M), 0.0003538 secs]
+Application time: 0.7375861 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0240150 secs]
+Application time: 0.3232720 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0150420 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0038028 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054959 secs]
+Application time: 0.0093498 seconds
+[GC remark, 0.0040200 secs]
+Application time: 0.0042385 seconds
+[GC cleanup 17M->17M(256M), 0.0004704 secs]
+Application time: 0.7771834 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0209142 secs]
+Application time: 0.2988827 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0174289 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0066165 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056946 secs]
+Application time: 0.0123947 seconds
+[GC remark, 0.0034627 secs]
+Application time: 0.0000660 seconds
+[GC cleanup 18M->18M(256M), 0.0004008 secs]
+Application time: 0.6977271 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0285335 secs]
+Application time: 0.3074536 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0171150 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0040283 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0130587 secs]
+Application time: 0.0171465 seconds
+[GC remark, 0.0036273 secs]
+Application time: 0.0000521 seconds
+[GC cleanup 19M->19M(256M), 0.0004328 secs]
+Application time: 0.7016106 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0210239 secs]
+Application time: 0.3031886 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174331 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0075040 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0061090 secs]
+Application time: 0.0136600 seconds
+[GC remark, 0.0037075 secs]
+Application time: 0.0051111 seconds
+[GC cleanup 18M->18M(256M), 0.0004403 secs]
+Application time: 0.7884982 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0295480 secs]
+Application time: 0.3167246 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172157 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0081597 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0060129 secs]
+Application time: 0.0142365 seconds
+[GC remark, 0.0036061 secs]
+Application time: 0.0000363 seconds
+[GC cleanup 18M->18M(256M), 0.0004384 secs]
+Application time: 0.7223176 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0213543 secs]
+Application time: 0.3046747 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172626 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0057685 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052330 secs]
+Application time: 0.0110405 seconds
+[GC remark, 0.0040838 secs]
+Application time: 0.0000575 seconds
+[GC cleanup 17M->17M(256M), 0.0004365 secs]
+Application time: 0.6982525 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0274898 secs]
+Application time: 0.3130582 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0173818 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0027482 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058355 secs]
+Application time: 0.0086356 seconds
+[GC remark, 0.0032668 secs]
+Application time: 0.0000421 seconds
+[GC cleanup 18M->18M(256M), 0.0003943 secs]
+Application time: 0.7055555 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0192999 secs]
+Application time: 0.3064004 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0176086 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0049201 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0056901 secs]
+Application time: 0.0106711 seconds
+[GC remark, 0.0036517 secs]
+Application time: 0.0000421 seconds
+[GC cleanup 18M->18M(256M), 0.0003944 secs]
+Application time: 0.7050624 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0275400 secs]
+Application time: 0.3257276 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173124 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0034097 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059251 secs]
+Application time: 0.0093906 seconds
+[GC remark, 0.0034978 secs]
+Application time: 0.0000353 seconds
+[GC cleanup 18M->18M(256M), 0.0004283 secs]
+Application time: 0.7453638 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0202661 secs]
+Application time: 0.3162268 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0177607 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0097771 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0063503 secs]
+Application time: 0.0162034 seconds
+[GC remark, 0.0038438 secs]
+Application time: 0.0029948 seconds
+[GC cleanup 18M->18M(256M), 0.0004308 secs]
+Application time: 0.7104759 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0274984 secs]
+Application time: 0.2986071 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0175730 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002929 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0126906 secs]
+Application time: 0.0130400 seconds
+[GC remark, 0.0038187 secs]
+Application time: 0.0000502 seconds
+[GC cleanup 18M->18M(256M), 0.0004573 secs]
+Application time: 0.7570327 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0155480 secs]
+Application time: 0.3153524 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0145798 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001691 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059240 secs]
+Application time: 0.0061339 seconds
+[GC remark, 0.0027770 secs]
+Application time: 0.0000457 seconds
+[GC cleanup 17M->17M(256M), 0.0003377 secs]
+Application time: 0.7309022 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0236937 secs]
+Application time: 0.3201643 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0147129 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001841 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0185545 secs]
+Application time: 0.0188090 seconds
+[GC remark, 0.0030965 secs]
+Application time: 0.0000372 seconds
+[GC cleanup 18M->18M(256M), 0.0003655 secs]
+Application time: 0.7817987 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0206381 secs]
+Application time: 0.3518609 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0178537 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0086090 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058606 secs]
+Application time: 0.0145470 seconds
+[GC remark, 0.0034831 secs]
+Application time: 0.0039212 seconds
+[GC cleanup 18M->18M(256M), 0.0004894 secs]
+Application time: 0.7825905 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0292659 secs]
+Application time: 0.3447796 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0184715 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0063428 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0156134 secs]
+Application time: 0.0220356 seconds
+[GC remark, 0.0037105 secs]
+Application time: 0.0000667 seconds
+[GC cleanup 18M->18M(256M), 0.0004180 secs]
+Application time: 0.7872750 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0203350 secs]
+Application time: 0.3371389 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0175809 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0049803 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0086614 secs]
+Application time: 0.0137142 seconds
+[GC remark, 0.0036692 secs]
+Application time: 0.0013560 seconds
+[GC cleanup 18M->18M(256M), 0.0004538 secs]
+Application time: 0.7888804 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0292251 secs]
+Application time: 0.3665025 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0159355 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001787 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0136753 secs]
+Application time: 0.0139182 seconds
+[GC remark, 0.0030245 secs]
+Application time: 0.0000451 seconds
+[GC cleanup 18M->18M(256M), 0.0003311 secs]
+Application time: 0.7541339 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0166544 secs]
+Application time: 0.3181837 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->14M(256M), 0.0146020 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002816 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0118432 secs]
+Application time: 0.0121970 seconds
+[GC remark, 0.0032320 secs]
+Application time: 0.0000536 seconds
+[GC cleanup 17M->17M(256M), 0.0003505 secs]
+Application time: 0.7517272 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0304535 secs]
+Application time: 0.3352369 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0186375 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0046028 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0060470 secs]
+Application time: 0.0107340 seconds
+[GC remark, 0.0037941 secs]
+Application time: 0.0000596 seconds
+[GC cleanup 17M->17M(256M), 0.0004423 secs]
+Application time: 0.7427197 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0242854 secs]
+Application time: 0.3048314 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172843 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0057741 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0087662 secs]
+Application time: 0.0146075 seconds
+[GC remark, 0.0036294 secs]
+Application time: 0.0000346 seconds
+[GC cleanup 18M->18M(256M), 0.0004096 secs]
+Application time: 0.7006885 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0284490 secs]
+Application time: 0.3175893 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173305 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0046803 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0054041 secs]
+Application time: 0.0107970 seconds
+[GC remark, 0.0040971 secs]
+Application time: 0.0094817 seconds
+[GC cleanup 19M->19M(256M), 0.0004232 secs]
+Application time: 0.7114723 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0201485 secs]
+Application time: 0.3063566 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176975 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0078448 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0159096 secs]
+Application time: 0.0238201 seconds
+[GC remark, 0.0036718 secs]
+Application time: 0.0000507 seconds
+[GC cleanup 20M->20M(256M), 0.0004197 secs]
+Application time: 0.6985476 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0284643 secs]
+Application time: 0.3391072 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174706 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0069593 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059244 secs]
+Application time: 0.0129503 seconds
+[GC remark, 0.0043126 secs]
+Application time: 0.0000547 seconds
+[GC cleanup 18M->18M(256M), 0.0004435 secs]
+Application time: 0.7106504 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0194064 secs]
+Application time: 0.3164625 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0176882 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0023456 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059432 secs]
+Application time: 0.0083629 seconds
+[GC remark, 0.0036567 secs]
+Application time: 0.0000422 seconds
+[GC cleanup 17M->17M(256M), 0.0003967 secs]
+Application time: 0.7293592 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0270341 secs]
+Application time: 0.3091297 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0169964 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0066426 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0052889 secs]
+Application time: 0.0119888 seconds
+[GC remark, 0.0034580 secs]
+Application time: 0.0000502 seconds
+[GC cleanup 18M->18M(256M), 0.0003962 secs]
+Application time: 0.7145591 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0197547 secs]
+Application time: 0.3082716 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172633 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0062984 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058755 secs]
+Application time: 0.0122469 seconds
+[GC remark, 0.0035457 secs]
+Application time: 0.0000336 seconds
+[GC cleanup 18M->18M(256M), 0.0004084 secs]
+Application time: 0.7541896 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0276459 secs]
+Application time: 0.3059996 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0170021 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0095253 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0064693 secs]
+Application time: 0.0160646 seconds
+[GC remark, 0.0037550 secs]
+Application time: 0.0007711 seconds
+[GC cleanup 18M->18M(256M), 0.0004261 secs]
+Application time: 0.7119969 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0168396 secs]
+Application time: 0.3197541 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0150125 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0075907 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0059582 secs]
+Application time: 0.0135873 seconds
+[GC remark, 0.0030179 secs]
+Application time: 0.0000305 seconds
+[GC cleanup 18M->18M(256M), 0.0003538 secs]
+Application time: 0.7358003 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0275149 secs]
+Application time: 0.3194706 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0170894 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0029613 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0141247 secs]
+Application time: 0.0171494 seconds
+[GC remark, 0.0037729 secs]
+Application time: 0.0052453 seconds
+[GC cleanup 20M->20M(256M), 0.0004393 secs]
+Application time: 0.7200811 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0197233 secs]
+Application time: 0.3087163 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174176 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0045529 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057842 secs]
+Application time: 0.0103903 seconds
+[GC remark, 0.0036132 secs]
+Application time: 0.0000478 seconds
+[GC cleanup 17M->17M(256M), 0.0003837 secs]
+Application time: 0.7220087 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->14M(256M), 0.0289128 secs]
+Application time: 0.3176495 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0174528 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0022358 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0112850 secs]
+Application time: 0.0135689 seconds
+[GC remark, 0.0035503 secs]
+Application time: 0.0000521 seconds
+[GC cleanup 18M->18M(256M), 0.0004201 secs]
+Application time: 0.6998126 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0284740 secs]
+Application time: 0.3223859 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->14M(256M), 0.0172508 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001723 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0131829 secs]
+Application time: 0.0134043 seconds
+[GC remark, 0.0036410 secs]
+Application time: 0.0000633 seconds
+[GC cleanup 18M->18M(256M), 0.0004051 secs]
+Application time: 0.7137808 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0207679 secs]
+Application time: 0.3041569 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0172577 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0077539 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055806 secs]
+Application time: 0.0133858 seconds
+[GC remark, 0.0032867 secs]
+Application time: 0.0000424 seconds
+[GC cleanup 19M->19M(256M), 0.0003797 secs]
+Application time: 0.6906361 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0279370 secs]
+Application time: 0.3079380 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0172159 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0019924 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0061528 secs]
+Application time: 0.0082179 seconds
+[GC remark, 0.0035848 secs]
+Application time: 0.0026332 seconds
+[GC cleanup 18M->18M(256M), 0.0003876 secs]
+Application time: 0.6922579 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0249599 secs]
+Application time: 0.3057261 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0170359 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0055875 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0098403 secs]
+Application time: 0.0154929 seconds
+[GC remark, 0.0035891 secs]
+Application time: 0.0000354 seconds
+[GC cleanup 19M->19M(256M), 0.0004116 secs]
+Application time: 0.7085019 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0248007 secs]
+Application time: 0.3139879 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0171112 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001354 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0153839 secs]
+Application time: 0.0155798 seconds
+[GC remark, 0.0036341 secs]
+Application time: 0.0000341 seconds
+[GC cleanup 18M->18M(256M), 0.0004289 secs]
+Application time: 0.7054963 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0198804 secs]
+Application time: 0.2985686 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0173279 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001358 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057444 secs]
+Application time: 0.0066907 seconds
+[GC remark, 0.0035541 secs]
+Application time: 0.0079875 seconds
+[GC cleanup 17M->17M(256M), 0.0003913 secs]
+Application time: 0.7040568 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0275736 secs]
+Application time: 0.3075652 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0170041 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0071193 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055152 secs]
+Application time: 0.0126924 seconds
+[GC remark, 0.0033348 secs]
+Application time: 0.0000736 seconds
+[GC cleanup 18M->18M(256M), 0.0004231 secs]
+Application time: 0.7522639 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0174860 secs]
+Application time: 0.3461878 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0187481 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001689 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0057527 secs]
+Application time: 0.0136173 seconds
+[GC remark, 0.0036224 secs]
+Application time: 0.0000324 seconds
+[GC cleanup 18M->18M(256M), 0.0003953 secs]
+Application time: 0.7341022 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->15M(256M), 0.0276486 secs]
+Application time: 0.3039271 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0169439 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0028971 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0137475 secs]
+Application time: 0.0167023 seconds
+[GC remark, 0.0037226 secs]
+Application time: 0.0000325 seconds
+[GC cleanup 18M->18M(256M), 0.0004054 secs]
+Application time: 0.6948091 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0193061 secs]
+Application time: 0.3067043 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0171359 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0045535 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0118206 secs]
+Application time: 0.0164733 seconds
+[GC remark, 0.0035704 secs]
+Application time: 0.0000353 seconds
+[GC cleanup 19M->19M(256M), 0.0004182 secs]
+Application time: 0.6892477 seconds
+[GC pause (G1 Humongous Allocation) (young) 137M->14M(256M), 0.0274470 secs]
+Application time: 0.3110056 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0172428 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0065935 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058399 secs]
+Application time: 0.0125076 seconds
+[GC remark, 0.0035766 secs]
+Application time: 0.0000344 seconds
+[GC cleanup 18M->18M(256M), 0.0004200 secs]
+Application time: 0.6986506 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0201362 secs]
+Application time: 0.3337982 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 68M->15M(256M), 0.0166880 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0044907 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0106586 secs]
+Application time: 0.0152024 seconds
+[GC remark, 0.0030392 secs]
+Application time: 0.0000289 seconds
+[GC cleanup 18M->18M(256M), 0.0003511 secs]
+Application time: 0.7475766 seconds
+[GC pause (G1 Humongous Allocation) (young) 136M->15M(256M), 0.0278480 secs]
+Application time: 0.3140700 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 69M->15M(256M), 0.0171649 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0038320 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055061 secs]
+Application time: 0.0094002 seconds
+[GC remark, 0.0036965 secs]
+Application time: 0.0000361 seconds
+[GC cleanup 18M->18M(256M), 0.0004371 secs]
+Application time: 0.2296368 seconds
+Iteration 1 (120s) ends:   Tue May 15 23:58:52 GMT 2018
+Iteration 1 (120s) result: 213.39 ops/m
+
+Valid run!
+Score on crypto.signverify: 213.39 ops/m
+
+Application time: 0.4557043 seconds

@@ -1,0 +1,153 @@
+Application time: 0.0273902 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        serial
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Wed May 16 01:46:14 GMT 2018
+Application time: 0.1287963 seconds
+[GC pause (G1 Evacuation Pause) (young) 7168K->3325K(64M), 0.0059701 secs]
+Application time: 0.0357429 seconds
+[Full GC (System.gc())  5216K->2559K(64M), 0.0126194 secs]
+Application time: 0.0000809 seconds
+[Full GC (System.gc())  2559K->2559K(64M), 0.0098270 secs]
+Iteration 1 (1 operation) ends:   Wed May 16 01:46:14 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   serial
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:46:14 GMT 2018
+Application time: 0.0550605 seconds
+Application time: 0.2093670 seconds
+[GC pause (G1 Evacuation Pause) (young) 13M->7024K(64M), 0.0023645 secs]
+Application time: 0.2278394 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 35M->15M(64M), 0.0019641 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0007389 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0048363 secs]
+Application time: 0.0056756 seconds
+[GC remark, 0.0026046 secs]
+Application time: 0.0019274 seconds
+[GC cleanup 15M->14M(64M), 0.0005410 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000119 secs]
+Application time: 0.1709395 seconds
+[GC pause (G1 Humongous Allocation) (young) 52M->26M(64M), 0.0027518 secs]
+Application time: 0.0932027 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 49M->33M(64M), 0.0026704 secs]
+[GC concurrent-root-region-scan-start]
+Application time: 0.0000386 seconds
+[GC pause (G1 Humongous Allocation) (young)[GC concurrent-root-region-scan-end, 0.0005292 secs]
+[GC concurrent-mark-start]
+ 33M->33M(64M), 0.0022430 secs]
+Application time: 0.0000802 seconds
+[Full GC (Allocation Failure)  33M->33M(64M), 0.0126663 secs]
+[Full GC (Allocation Failure)  33M->32M(64M), 0.0094730 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0003728 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 32M->32M(64M), 0.0008696 secs]
+[GC concurrent-root-region-scan-start]
+Application time: 0.0000337 seconds
+[GC pause (G1 Humongous Allocation) (young)[GC concurrent-root-region-scan-end, 0.0001984 secs]
+[GC concurrent-mark-start]
+ 32M->32M(64M), 0.0007320 secs]
+Application time: 0.0000338 seconds
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0077617 secs]
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0072110 secs]
+[GC concurrent-mark-abort]
+Application time: 0.1636014 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 42M->32M(64M), 0.0015999 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0004392 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0031214 secs]
+Application time: 0.0036510 seconds
+[GC pause (G1 Humongous Allocation) (young) 32M->32M(64M), 0.0009061 secs]
+Application time: 0.0000317 seconds
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0098565 secs]
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0087503 secs]
+Application time: 0.0003058 seconds
+[GC pause (G1 Humongous Allocation) (young) 32M->32M(64M), 0.0007088 secs]
+Application time: 0.0000688 seconds
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0068953 secs]
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0069336 secs]
+Application time: 0.0035432 seconds
+[GC remark, 0.0000085 secs]
+[GC concurrent-mark-abort]
+Application time: 0.2276594 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 50M->32M(64M), 0.0014797 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0003984 secs]
+[GC concurrent-mark-start]
+Application time: 0.0004429 seconds
+[GC pause (G1 Humongous Allocation) (young) 32M->32M(64M), 0.0010640 secs]
+[GC concurrent-mark-end, 0.0040344 secs]
+Application time: 0.0028984 seconds
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0090420 secs]
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0079719 secs]
+Application time: 0.0023019 seconds
+[GC remark, 0.0000077 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001795 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 32M->32M(64M), 0.0006766 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000047 secs]
+[GC concurrent-mark-start]
+Application time: 0.0017268 seconds
+[GC pause (G1 Humongous Allocation) (young) 32M->32M(64M), 0.0006078 secs]
+Application time: 0.0000540 seconds
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0078648 secs]
+[Full GC (Allocation Failure)  32M->32M(64M), 0.0073404 secs]
+[GC concurrent-mark-abort]
+Warmup (60s) ends:   Wed May 16 01:46:15 GMT 2018
+Warmup (60s) result:  **NOT VALID**
+
+Errors in benchmark: serial
+  [warmup] Harness interruped during measurement period.
+  [warmup][bt:2|op:1] java.lang.OutOfMemoryError: Java heap space
+  [warmup][bt:1|op:1] java.lang.OutOfMemoryError: Java heap space
+Score on serial:  **NOT VALID**
+
+
+--- --- --- --- --- --- --- --- ---
+
+WARNING! Known issue detected:
+
+
+An Out of Memory Error has been thrown.
+This is an unfortunate but expected error for some configurations.
+The heap size needs to be increased or the amount of live data decreased.
+
+In a peak run where tuning is allowed, use JVM argument -Xmx or equivalent.
+In a base run, it is possible to configure the harness.
+For more info, see /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC/docs/KnownIssues.html
+Application time: 0.0109314 seconds

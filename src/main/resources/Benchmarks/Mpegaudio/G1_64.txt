@@ -1,0 +1,712 @@
+Application time: 0.0288935 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        mpegaudio
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Wed May 16 00:29:38 GMT 2018
+Application time: 0.1337795 seconds
+[GC pause (G1 Evacuation Pause) (young) 7168K->3298K(64M), 0.0059456 secs]
+Application time: 0.0417141 seconds
+[Full GC (System.gc())  5250K->2559K(64M), 0.0100480 secs]
+Application time: 0.0002991 seconds
+[Full GC (System.gc())  2559K->2559K(64M), 0.0074359 secs]
+Iteration 1 (1 operation) ends:   Wed May 16 00:29:38 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   mpegaudio
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 00:29:38 GMT 2018
+Application time: 0.0764606 seconds
+Application time: 0.0177174 seconds
+Application time: 0.4635256 seconds
+[GC pause (G1 Evacuation Pause) (young) 9727K->4607K(64M), 0.0026204 secs]
+Application time: 0.8411081 seconds
+[GC pause (G1 Evacuation Pause) (young) 18M->5381K(64M), 0.0019793 secs]
+Application time: 1.1703657 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5083K(64M), 0.0021073 secs]
+Application time: 1.0412854 seconds
+[GC pause (G1 Evacuation Pause) (young) 40M->4949K(64M), 0.0014938 secs]
+Application time: 0.1458409 seconds
+Application time: 0.4150625 seconds
+[GC pause (G1 Evacuation Pause) (young) 40M->5247K(64M), 0.0017093 secs]
+Application time: 0.0000857 seconds
+Application time: 0.0000289 seconds
+Application time: 0.0000212 seconds
+Application time: 0.0000173 seconds
+Application time: 0.0000165 seconds
+Application time: 0.0000287 seconds
+Application time: 0.6502969 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5353K(64M), 0.0015762 secs]
+Application time: 0.0000771 seconds
+Application time: 0.0000407 seconds
+Application time: 0.0000434 seconds
+Application time: 0.0000196 seconds
+Application time: 0.6722304 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4578K(64M), 0.0016447 secs]
+Application time: 0.4843574 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5408K(64M), 0.0015967 secs]
+Application time: 0.0031764 seconds
+Application time: 0.0000290 seconds
+Application time: 0.0000236 seconds
+Application time: 0.0000220 seconds
+Application time: 0.0000210 seconds
+Application time: 0.0000207 seconds
+Application time: 0.0000186 seconds
+Application time: 0.0000210 seconds
+Application time: 0.0000210 seconds
+Application time: 0.0000213 seconds
+Application time: 0.6919820 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5347K(64M), 0.0019790 secs]
+Application time: 0.0001006 seconds
+Application time: 0.0000826 seconds
+Application time: 0.5979930 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5023K(64M), 0.0018650 secs]
+Application time: 0.0000983 seconds
+Application time: 0.0000526 seconds
+Application time: 0.6770038 seconds
+[GC pause (G1 Evacuation Pause) (young) 40M->5388K(64M), 0.0020967 secs]
+Application time: 0.0001112 seconds
+Application time: 0.0000284 seconds
+Application time: 0.0000520 seconds
+Application time: 0.0000243 seconds
+Application time: 0.0000327 seconds
+Application time: 0.0000221 seconds
+Application time: 0.0000442 seconds
+Application time: 0.0000199 seconds
+Application time: 0.6448220 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5143K(64M), 0.0018017 secs]
+Application time: 0.0000838 seconds
+Application time: 0.0000270 seconds
+Application time: 0.5686785 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5247K(64M), 0.0019323 secs]
+Application time: 0.0058979 seconds
+Application time: 0.0000642 seconds
+Application time: 0.0000444 seconds
+Application time: 0.0000311 seconds
+Application time: 0.5540475 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5395K(64M), 0.0020620 secs]
+Application time: 0.0073514 seconds
+Application time: 0.0000615 seconds
+Application time: 0.6293114 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5414K(64M), 0.0017730 secs]
+Application time: 0.5785662 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5006K(64M), 0.0024311 secs]
+Application time: 0.5594219 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5030K(64M), 0.0014373 secs]
+Application time: 0.6595711 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4954K(64M), 0.0010999 secs]
+Application time: 0.5592128 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4941K(64M), 0.0010665 secs]
+Application time: 0.5435568 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4872K(64M), 0.0009686 secs]
+Application time: 0.6589494 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4916K(64M), 0.0009974 secs]
+Application time: 0.4776450 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4971K(64M), 0.0010274 secs]
+Application time: 0.6412554 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4917K(64M), 0.0010350 secs]
+Application time: 0.6673432 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4867K(64M), 0.0009766 secs]
+Application time: 0.4750657 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4981K(64M), 0.0010295 secs]
+Application time: 0.6472589 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4914K(64M), 0.0010946 secs]
+Application time: 0.6727689 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4879K(64M), 0.0010492 secs]
+Application time: 0.4746931 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4950K(64M), 0.0010211 secs]
+Application time: 0.6607031 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4920K(64M), 0.0012023 secs]
+Application time: 0.6972899 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4966K(64M), 0.0011030 secs]
+Application time: 0.5232075 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4962K(64M), 0.0009090 secs]
+Application time: 0.7123990 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4898K(64M), 0.0014192 secs]
+Application time: 0.5739235 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5020K(64M), 0.0007010 secs]
+Application time: 0.5626751 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4896K(64M), 0.0008021 secs]
+Application time: 0.7058405 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4891K(64M), 0.0010183 secs]
+Application time: 0.5729939 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5000K(64M), 0.0010771 secs]
+Application time: 0.6094716 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4927K(64M), 0.0008780 secs]
+Application time: 0.7071292 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4980K(64M), 0.0007719 secs]
+Application time: 0.5091776 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4922K(64M), 0.0008638 secs]
+Application time: 0.6636807 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5056K(64M), 0.0008930 secs]
+Application time: 0.7159980 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4870K(64M), 0.0007893 secs]
+Application time: 0.4978960 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5060K(64M), 0.0011337 secs]
+Application time: 0.6994600 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4929K(64M), 0.0009660 secs]
+Application time: 0.7190067 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4983K(64M), 0.0010064 secs]
+Application time: 0.4766561 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4923K(64M), 0.0008545 secs]
+Application time: 0.6566027 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5070K(64M), 0.0010449 secs]
+Application time: 0.5847210 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4930K(64M), 0.0010866 secs]
+Application time: 0.5604698 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4988K(64M), 0.0010787 secs]
+Application time: 0.6610537 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4938K(64M), 0.0011869 secs]
+Application time: 0.5926629 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5074K(64M), 0.0011743 secs]
+Application time: 0.5719974 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4940K(64M), 0.0010596 secs]
+Application time: 0.6756262 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5079K(64M), 0.0010037 secs]
+Application time: 0.5290969 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4940K(64M), 0.0009599 secs]
+Application time: 0.5747771 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4992K(64M), 0.0009980 secs]
+Application time: 0.6479598 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4941K(64M), 0.0010434 secs]
+Application time: 0.4613868 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5077K(64M), 0.0009921 secs]
+Application time: 0.6136703 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4946K(64M), 0.0010375 secs]
+Application time: 0.6770821 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5000K(64M), 0.0008413 secs]
+Application time: 0.4999262 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4944K(64M), 0.0008171 secs]
+Application time: 0.6735525 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5091K(64M), 0.0010622 secs]
+Application time: 0.5714446 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4951K(64M), 0.0011356 secs]
+Application time: 0.5572887 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5091K(64M), 0.0010612 secs]
+Application time: 0.6364747 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4956K(64M), 0.0010775 secs]
+Application time: 0.5644463 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5093K(64M), 0.0011720 secs]
+Application time: 0.5521291 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4958K(64M), 0.0010345 secs]
+Application time: 0.6368887 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5017K(64M), 0.0010593 secs]
+Application time: 0.5614775 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5015K(64M), 0.0010768 secs]
+Application time: 0.5718558 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4945K(64M), 0.0011493 secs]
+Application time: 0.6587136 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4859K(64M), 0.0008163 secs]
+Application time: 0.5785697 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4948K(64M), 0.0009781 secs]
+Application time: 0.5593325 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4972K(64M), 0.0010616 secs]
+Application time: 0.5982542 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4964K(64M), 0.0010566 secs]
+Application time: 0.6115609 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5013K(64M), 0.0009606 secs]
+Application time: 0.5697107 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5017K(64M), 0.0010927 secs]
+Application time: 0.6154280 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4996K(64M), 0.0008751 secs]
+Application time: 0.6067835 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4975K(64M), 0.0008028 secs]
+Application time: 0.7098158 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5048K(64M), 0.0010467 secs]
+Application time: 0.6098688 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4965K(64M), 0.0010234 secs]
+Application time: 0.6091352 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4894K(64M), 0.0010701 secs]
+Application time: 0.6632800 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5025K(64M), 0.0011005 secs]
+Application time: 0.5762800 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4948K(64M), 0.0010908 secs]
+Application time: 0.5684323 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5077K(64M), 0.0010223 secs]
+Application time: 0.6238060 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4972K(64M), 0.0010343 secs]
+Application time: 0.5498873 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5116K(64M), 0.0010939 secs]
+Application time: 0.5661703 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5035K(64M), 0.0010996 secs]
+Application time: 0.5636945 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4959K(64M), 0.0011042 secs]
+Application time: 0.6355084 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5084K(64M), 0.0010275 secs]
+Application time: 0.5500581 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4979K(64M), 0.0010680 secs]
+Application time: 0.5390280 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5127K(64M), 0.0010132 secs]
+Application time: 0.6330269 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->4994K(64M), 0.0009635 secs]
+Application time: 0.5528055 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5133K(64M), 0.0010012 secs]
+Application time: 0.5253807 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->4997K(64M), 0.0010154 secs]
+Application time: 0.6367983 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5056K(64M), 0.0009822 secs]
+Application time: 0.4695074 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5001K(64M), 0.0010700 secs]
+Application time: 0.6156545 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5141K(64M), 0.0010851 secs]
+Application time: 0.6592765 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->4950K(64M), 0.0010096 secs]
+Application time: 0.4683529 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5060K(64M), 0.0010233 secs]
+Application time: 0.6334930 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5007K(64M), 0.0010778 secs]
+Application time: 0.6092081 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5148K(64M), 0.0010140 secs]
+Application time: 0.5385187 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->4771K(64M), 0.0011440 secs]
+Warmup (60s) ends:   Wed May 16 00:30:41 GMT 2018
+Warmup (60s) result: 67.61 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 00:30:41 GMT 2018
+Application time: 1.0986836 seconds
+Application time: 0.0802627 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4978K(64M), 0.0011496 secs]
+Application time: 0.6945634 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5095K(64M), 0.0011959 secs]
+Application time: 0.7241298 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4956K(64M), 0.0011859 secs]
+Application time: 0.5091441 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5096K(64M), 0.0009916 secs]
+Application time: 0.6161392 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5075K(64M), 0.0011652 secs]
+Application time: 0.6521958 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->4961K(64M), 0.0010884 secs]
+Application time: 0.4560613 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5124K(64M), 0.0010135 secs]
+Application time: 0.6127839 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5073K(64M), 0.0010367 secs]
+Application time: 0.6365744 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5037K(64M), 0.0010235 secs]
+Application time: 0.5091943 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5077K(64M), 0.0010565 secs]
+Application time: 0.6767008 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5137K(64M), 0.0011144 secs]
+Application time: 0.6253095 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5049K(64M), 0.0012398 secs]
+Application time: 0.4913931 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5088K(64M), 0.0011104 secs]
+Application time: 0.6562345 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5014K(64M), 0.0010679 secs]
+Application time: 0.5697295 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5112K(64M), 0.0010466 secs]
+Application time: 0.5337432 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5038K(64M), 0.0010008 secs]
+Application time: 0.6623211 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5024K(64M), 0.0007863 secs]
+Application time: 0.5748238 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5132K(64M), 0.0007925 secs]
+Application time: 0.5630574 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5062K(64M), 0.0007569 secs]
+Application time: 0.5817424 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5110K(64M), 0.0007775 secs]
+Application time: 0.6429233 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5050K(64M), 0.0007562 secs]
+Application time: 0.5475472 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5193K(64M), 0.0006784 secs]
+Application time: 0.5446376 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5057K(64M), 0.0008029 secs]
+Application time: 0.5733114 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5193K(64M), 0.0025847 secs]
+Application time: 0.5783354 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5055K(64M), 0.0008713 secs]
+Application time: 0.5915959 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5113K(64M), 0.0008164 secs]
+Application time: 0.5753169 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5061K(64M), 0.0008439 secs]
+Application time: 0.6527814 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5119K(64M), 0.0007751 secs]
+Application time: 0.5699295 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5064K(64M), 0.0008517 secs]
+Application time: 0.5651558 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5204K(64M), 0.0008583 secs]
+Application time: 0.6582924 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5069K(64M), 0.0007832 secs]
+Application time: 0.5694581 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5123K(64M), 0.0008212 secs]
+Application time: 0.5773659 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5071K(64M), 0.0010697 secs]
+Application time: 0.6727738 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5130K(64M), 0.0010159 secs]
+Application time: 0.5845359 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5131K(64M), 0.0009741 secs]
+Application time: 0.5752789 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5059K(64M), 0.0010317 secs]
+Application time: 0.5749673 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5111K(64M), 0.0010944 secs]
+Application time: 0.6440176 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5065K(64M), 0.0010768 secs]
+Application time: 0.5646570 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5214K(64M), 0.0010455 secs]
+Application time: 0.5695419 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5083K(64M), 0.0010850 secs]
+Application time: 0.5987776 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5141K(64M), 0.0028709 secs]
+Application time: 0.5880967 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5085K(64M), 0.0011695 secs]
+Application time: 0.5534824 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5143K(64M), 0.0010933 secs]
+Application time: 0.5910648 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5091K(64M), 0.0010584 secs]
+Application time: 0.5846288 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5142K(64M), 0.0010328 secs]
+Application time: 0.5343636 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5092K(64M), 0.0010654 secs]
+Application time: 0.6116569 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5152K(64M), 0.0010511 secs]
+Application time: 0.5249096 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5094K(64M), 0.0010133 secs]
+Application time: 0.6362375 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5237K(64M), 0.0011142 secs]
+Application time: 0.5609111 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5101K(64M), 0.0010716 secs]
+Application time: 0.5546045 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5159K(64M), 0.0010184 secs]
+Application time: 0.6327175 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5107K(64M), 0.0010440 secs]
+Application time: 0.5640727 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5243K(64M), 0.0010063 secs]
+Application time: 0.5628543 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5109K(64M), 0.0010360 secs]
+Application time: 0.6474473 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5249K(64M), 0.0010177 secs]
+Application time: 0.5595532 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5111K(64M), 0.0010534 secs]
+Application time: 0.5732971 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5252K(64M), 0.0010566 secs]
+Application time: 0.5758348 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5117K(64M), 0.0012003 secs]
+Application time: 0.6278277 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5245K(64M), 0.0011220 secs]
+Application time: 0.5767811 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5117K(64M), 0.0009511 secs]
+Application time: 0.5626912 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5176K(64M), 0.0010835 secs]
+Application time: 0.6688100 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5122K(64M), 0.0010367 secs]
+Application time: 0.5640200 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5178K(64M), 0.0009772 secs]
+Application time: 0.5507511 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5178K(64M), 0.0010690 secs]
+Application time: 0.6665581 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5157K(64M), 0.0008205 secs]
+Application time: 0.6167188 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5138K(64M), 0.0007947 secs]
+Application time: 0.5675806 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5207K(64M), 0.0007733 secs]
+Application time: 0.6889863 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5118K(64M), 0.0008611 secs]
+Application time: 0.5531872 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5138K(64M), 0.0008296 secs]
+Application time: 0.6107057 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5183K(64M), 0.0009087 secs]
+Application time: 0.6532334 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5117K(64M), 0.0007953 secs]
+Application time: 0.4859221 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5229K(64M), 0.0007299 secs]
+Application time: 0.6372333 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5130K(64M), 0.0008608 secs]
+Application time: 0.5898181 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5196K(64M), 0.0007441 secs]
+Application time: 0.5298445 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5145K(64M), 0.0006884 secs]
+Application time: 0.6514742 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5287K(64M), 0.0010846 secs]
+Application time: 0.5710183 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5148K(64M), 0.0010649 secs]
+Application time: 0.5602451 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5206K(64M), 0.0010470 secs]
+Application time: 0.6519447 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5154K(64M), 0.0011084 secs]
+Application time: 0.5762193 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5290K(64M), 0.0011100 secs]
+Application time: 0.5620735 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5158K(64M), 0.0011111 secs]
+Application time: 0.6532720 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5298K(64M), 0.0009952 secs]
+Application time: 0.5610992 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5160K(64M), 0.0010408 secs]
+Application time: 0.5584824 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5301K(64M), 0.0010151 secs]
+Application time: 0.5634552 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5165K(64M), 0.0010653 secs]
+Application time: 0.6196511 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5294K(64M), 0.0011145 secs]
+Application time: 0.5679961 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5092K(64M), 0.0011661 secs]
+Application time: 0.5555694 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5188K(64M), 0.0009831 secs]
+Application time: 0.6425937 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5267K(64M), 0.0009908 secs]
+Application time: 0.5613485 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5162K(64M), 0.0011069 secs]
+Application time: 0.5226151 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5307K(64M), 0.0011775 secs]
+Application time: 0.6852861 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5175K(64M), 0.0008305 secs]
+Application time: 0.5822323 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5313K(64M), 0.0008194 secs]
+Application time: 0.5890484 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5178K(64M), 0.0007594 secs]
+Application time: 0.6969485 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5108K(64M), 0.0011269 secs]
+Application time: 0.5934752 seconds
+[GC pause (G1 Evacuation Pause) (young) 41M->5239K(64M), 0.0011049 secs]
+Application time: 0.6441418 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5152K(64M), 0.0011226 secs]
+Application time: 0.5885351 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5281K(64M), 0.0011737 secs]
+Application time: 0.5567215 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5230K(64M), 0.0010592 secs]
+Application time: 0.6268996 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5170K(64M), 0.0011098 secs]
+Application time: 0.5666922 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5288K(64M), 0.0010187 secs]
+Application time: 0.5419130 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5185K(64M), 0.0010723 secs]
+Application time: 0.6445436 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5333K(64M), 0.0009909 secs]
+Application time: 0.6029681 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5196K(64M), 0.0009363 secs]
+Application time: 0.5277438 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5254K(64M), 0.0010880 secs]
+Application time: 0.6514238 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5148K(64M), 0.0009991 secs]
+Application time: 0.5141222 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5255K(64M), 0.0010498 secs]
+Application time: 0.5986265 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5200K(64M), 0.0010248 secs]
+Application time: 0.6682764 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5182K(64M), 0.0010827 secs]
+Application time: 0.4889090 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5289K(64M), 0.0010272 secs]
+Application time: 0.6385950 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5216K(64M), 0.0008509 secs]
+Application time: 0.6617467 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5351K(64M), 0.0007185 secs]
+Application time: 0.5393473 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5210K(64M), 0.0007863 secs]
+Application time: 0.6741991 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5272K(64M), 0.0007531 secs]
+Application time: 0.5751804 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5216K(64M), 0.0007901 secs]
+Application time: 0.5525318 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5356K(64M), 0.0007249 secs]
+Application time: 0.6580026 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5222K(64M), 0.0009621 secs]
+Application time: 0.5832220 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5358K(64M), 0.0011078 secs]
+Application time: 0.5693114 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5224K(64M), 0.0009856 secs]
+Application time: 0.6669754 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5365K(64M), 0.0009251 secs]
+Application time: 0.6085619 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5226K(64M), 0.0008374 secs]
+Application time: 0.6008129 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5366K(64M), 0.0008420 secs]
+Application time: 0.6848624 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5240K(64M), 0.0011709 secs]
+Application time: 0.5964947 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5361K(64M), 0.0008133 secs]
+Application time: 0.5888860 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5222K(64M), 0.0007551 secs]
+Application time: 0.7151392 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5209K(64M), 0.0007690 secs]
+Application time: 0.4894777 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5408K(64M), 0.0007420 secs]
+Application time: 0.6357769 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5250K(64M), 0.0007906 secs]
+Application time: 0.6595057 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5381K(64M), 0.0007863 secs]
+Application time: 0.4760407 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5239K(64M), 0.0007781 secs]
+Application time: 0.6518565 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5303K(64M), 0.0007792 secs]
+Application time: 0.5718231 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5246K(64M), 0.0007926 secs]
+Application time: 0.5266783 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5386K(64M), 0.0007451 secs]
+Application time: 0.6072510 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5252K(64M), 0.0007758 secs]
+Application time: 0.5915416 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5305K(64M), 0.0011439 secs]
+Application time: 0.5374985 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5223K(64M), 0.0010908 secs]
+Application time: 0.6492255 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5276K(64M), 0.0010906 secs]
+Application time: 0.5666768 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5329K(64M), 0.0011265 secs]
+Application time: 0.5471394 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5240K(64M), 0.0011371 secs]
+Application time: 0.6506441 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5208K(64M), 0.0010899 secs]
+Application time: 0.5304667 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5319K(64M), 0.0010608 secs]
+Application time: 0.5591313 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5239K(64M), 0.0011724 secs]
+Application time: 0.6608067 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5209K(64M), 0.0011468 secs]
+Application time: 0.4747172 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5192K(64M), 0.0011194 secs]
+Application time: 0.6445719 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5267K(64M), 0.0010403 secs]
+Application time: 0.6349756 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5322K(64M), 0.0010556 secs]
+Application time: 0.5069933 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5264K(64M), 0.0010604 secs]
+Application time: 0.6629491 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5328K(64M), 0.0010258 secs]
+Application time: 0.5799850 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5271K(64M), 0.0010040 secs]
+Application time: 0.5539297 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5329K(64M), 0.0015134 secs]
+Application time: 0.6314315 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5277K(64M), 0.0010720 secs]
+Application time: 0.5492609 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5413K(64M), 0.0010231 secs]
+Application time: 0.5379641 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5334K(64M), 0.0010279 secs]
+Application time: 0.6293384 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5266K(64M), 0.0010242 secs]
+Application time: 0.5555982 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5381K(64M), 0.0011799 secs]
+Application time: 0.5756468 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5277K(64M), 0.0016393 secs]
+Application time: 0.6519854 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5424K(64M), 0.0010290 secs]
+Application time: 0.5629913 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5288K(64M), 0.0011023 secs]
+Application time: 0.5608644 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5430K(64M), 0.0009622 secs]
+Application time: 0.6063282 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5292K(64M), 0.0009770 secs]
+Application time: 0.5806172 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5422K(64M), 0.0010749 secs]
+Application time: 0.5968661 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5292K(64M), 0.0010438 secs]
+Application time: 0.5667415 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5434K(64M), 0.0009532 secs]
+Application time: 0.5414277 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5300K(64M), 0.0011118 secs]
+Application time: 0.6548764 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5443K(64M), 0.0010462 secs]
+Application time: 0.5611640 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5303K(64M), 0.0010954 secs]
+Application time: 0.5511811 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5443K(64M), 0.0010042 secs]
+Application time: 0.6408408 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5309K(64M), 0.0010317 secs]
+Application time: 0.5657283 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5445K(64M), 0.0009994 secs]
+Application time: 0.5488966 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5313K(64M), 0.0010001 secs]
+Application time: 0.6175495 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5371K(64M), 0.0010208 secs]
+Application time: 0.5663418 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5311K(64M), 0.0011181 secs]
+Application time: 0.5577875 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5454K(64M), 0.0010586 secs]
+Application time: 0.5769781 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5320K(64M), 0.0009985 secs]
+Application time: 0.6173902 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5451K(64M), 0.0009582 secs]
+Application time: 0.5504431 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5320K(64M), 0.0010470 secs]
+Application time: 0.5463005 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5379K(64M), 0.0010776 secs]
+Application time: 0.6384659 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5328K(64M), 0.0010178 secs]
+Application time: 0.5937560 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5466K(64M), 0.0010701 secs]
+Application time: 0.5954903 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5330K(64M), 0.0011053 secs]
+Application time: 0.6799536 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5387K(64M), 0.0010420 secs]
+Application time: 0.5658764 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5334K(64M), 0.0010398 secs]
+Application time: 0.5598032 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5391K(64M), 0.0010340 secs]
+Application time: 0.5895731 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5338K(64M), 0.0010156 secs]
+Application time: 0.5734006 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5468K(64M), 0.0010082 secs]
+Application time: 0.5777433 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5334K(64M), 0.0009565 secs]
+Application time: 0.5928745 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5478K(64M), 0.0010764 secs]
+Application time: 0.5424882 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5344K(64M), 0.0009961 secs]
+Application time: 0.6354180 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5486K(64M), 0.0010681 secs]
+Application time: 0.5913254 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5347K(64M), 0.0009938 secs]
+Application time: 0.5388960 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5404K(64M), 0.0009761 secs]
+Application time: 0.6169373 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5353K(64M), 0.0007536 secs]
+Application time: 0.5264010 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5489K(64M), 0.0007391 secs]
+Application time: 0.5286138 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5355K(64M), 0.0007090 secs]
+Application time: 0.6523550 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5414K(64M), 0.0007714 secs]
+Application time: 0.5395535 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5174K(64M), 0.0007275 secs]
+Application time: 0.5657759 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5320K(64M), 0.0007382 secs]
+Application time: 0.6510329 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5376K(64M), 0.0007265 secs]
+Application time: 0.4865948 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5432K(64M), 0.0007368 secs]
+Application time: 0.6302007 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5371K(64M), 0.0007318 secs]
+Application time: 0.6467809 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5421K(64M), 0.0007611 secs]
+Application time: 0.4578613 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5367K(64M), 0.0007611 secs]
+Application time: 0.6320732 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5509K(64M), 0.0007957 secs]
+Application time: 0.6604910 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5370K(64M), 0.0007838 secs]
+Application time: 0.8876264 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->5211K(64M), 0.0008830 secs]
+Iteration 1 (120s) ends:   Wed May 16 00:32:43 GMT 2018
+Iteration 1 (120s) result: 71.49 ops/m
+
+Valid run!
+Score on mpegaudio: 71.49 ops/m
+
+Application time: 0.8221797 seconds

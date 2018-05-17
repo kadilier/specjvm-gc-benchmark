@@ -1,0 +1,528 @@
+Application time: 0.0446217 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        scimark.fft.large scimark.lu.large scimark.sor.large scimark.sparse.large scimark.monte_carlo
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Wed May 16 01:14:15 GMT 2018
+Application time: 0.2417636 seconds
+[Full GC (System.gc())  10M->3334K(512M), 0.0195986 secs]
+Application time: 0.0002031 seconds
+[Full GC (System.gc())  3334K->3333K(512M), 0.0118801 secs]
+Iteration 1 (1 operation) ends:   Wed May 16 01:14:15 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.fft.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:14:15 GMT 2018
+Application time: 1.0000939 seconds
+Application time: 2.6835407 seconds
+Application time: 3.5117770 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 198M->67M(512M), 0.0016830 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001086 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0048344 secs]
+Application time: 0.0050074 seconds
+[GC remark, 0.0028183 secs]
+Application time: 0.0145175 seconds
+[GC cleanup 99M->99M(512M), 0.0005114 secs]
+Application time: 5.0026060 seconds
+Application time: 8.0007872 seconds
+Application time: 4.7044205 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->99M(512M), 0.0236644 secs]
+Application time: 4.3423233 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 195M->67M(512M), 0.0227212 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000986 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0045745 secs]
+Application time: 0.0047912 seconds
+[GC remark, 0.0028441 secs]
+Application time: 0.0113445 seconds
+[GC cleanup 99M->99M(512M), 0.0004850 secs]
+Application time: 19.0086225 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->67M(512M), 0.0252835 secs]
+Application time: 5.9444340 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 195M->67M(512M), 0.0287554 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002261 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0055499 secs]
+Application time: 0.0110777 seconds
+[GC remark, 0.0033236 secs]
+Application time: 0.0240994 seconds
+[GC cleanup 99M->99M(512M), 0.0007015 secs]
+Warmup (60s) ends:   Wed May 16 01:15:19 GMT 2018
+Warmup (60s) result: 41.65 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 01:15:19 GMT 2018
+Application time: 10.2496920 seconds
+Application time: 3.0002644 seconds
+Application time: 4.2731024 seconds
+[GC pause (G1 Humongous Allocation) (young) 485M->67M(512M), 0.0270295 secs]
+Application time: 5.8102510 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 195M->67M(512M), 0.0270299 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0045675 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120210 secs]
+Application time: 0.0166825 seconds
+[GC remark, 0.0032123 secs]
+Application time: 0.0129910 seconds
+[GC cleanup 99M->99M(512M), 0.0006540 secs]
+Application time: 17.5759828 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->99M(512M), 0.0243528 secs]
+Application time: 4.2181788 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 196M->99M(512M), 0.0272450 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0048875 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0099888 secs]
+Application time: 0.0149898 seconds
+[GC remark, 0.0039210 secs]
+Application time: 0.0057512 seconds
+[GC cleanup 131M->131M(512M), 0.0006403 secs]
+Application time: 16.0869036 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->99M(512M), 0.0270273 secs]
+Application time: 4.7809728 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 196M->67M(512M), 0.0271214 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002157 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0047448 secs]
+Application time: 0.0120422 seconds
+[GC remark, 0.0032974 secs]
+Application time: 0.0000584 seconds
+[GC cleanup 99M->99M(512M), 0.0007048 secs]
+Application time: 18.3198126 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->99M(512M), 0.0273596 secs]
+Application time: 4.8010677 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 196M->67M(512M), 0.0279841 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002385 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0050534 secs]
+Application time: 0.0147334 seconds
+[GC remark, 0.0037676 secs]
+Application time: 0.0051535 seconds
+[GC cleanup 99M->99M(512M), 0.0006476 secs]
+Application time: 18.3198295 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->67M(512M), 0.0275930 secs]
+Application time: 5.9492149 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 196M->67M(512M), 0.0247040 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0057773 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058268 secs]
+Application time: 0.0117040 seconds
+[GC remark, 0.0025061 secs]
+Application time: 0.0160130 seconds
+[GC cleanup 99M->99M(512M), 0.0005564 secs]
+Application time: 5.0020500 seconds
+Application time: 8.0006403 seconds
+Application time: 4.0004698 seconds
+Application time: 0.4943316 seconds
+[GC pause (G1 Humongous Allocation) (young) 484M->99M(512M), 0.0234830 secs]
+Iteration 1 (120s) ends:   Wed May 16 01:17:24 GMT 2018
+Iteration 1 (120s) result: 42.27 ops/m
+
+Valid run!
+Score on scimark.fft.large: 42.27 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.lu.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:17:24 GMT 2018
+Application time: 2.9307352 seconds
+Application time: 11.8437988 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 469M->118M(512M), 0.0095237 secs]
+Application time: 0.0042799 seconds
+Application time: 12.2765339 seconds
+[GC pause (G1 Evacuation Pause) (young) 390M->201M(512M), 0.0210546 secs]
+Application time: 6.1820469 seconds
+[GC pause (G1 Evacuation Pause) (young) 372M->256M(512M), 0.0152845 secs]
+Application time: 7.0036496 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 374M->310M(512M), 0.0131404 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0041783 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0157084 secs]
+Application time: 0.0199826 seconds
+[GC remark, 0.0032662 secs]
+Application time: 0.0030802 seconds
+[GC cleanup 328M->105M(512M), 0.0012475 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0001955 secs]
+Application time: 0.0067960 seconds
+[GC pause (G1 Evacuation Pause) (young) 165M->156M(512M), 0.0178614 secs]
+Application time: 11.6340514 seconds
+[GC pause (G1 Evacuation Pause) (young) 328M->213M(512M), 0.0120878 secs]
+Application time: 6.7222040 seconds
+[GC pause (G1 Evacuation Pause) (young) 350M->266M(512M), 0.0129717 secs]
+Application time: 0.0204550 seconds
+Warmup (60s) ends:   Wed May 16 01:18:31 GMT 2018
+Warmup (60s) result: 18.52 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 01:18:31 GMT 2018
+Application time: 5.4682199 seconds
+Application time: 0.0146212 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 376M->309M(512M), 0.0117633 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0017118 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0067564 secs]
+Application time: 0.0086611 seconds
+[GC remark, 0.0020143 secs]
+Application time: 0.0063529 seconds
+[GC cleanup 342M->100M(512M), 0.0008007 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002118 secs]
+Application time: 5.1477789 seconds
+[GC pause (G1 Evacuation Pause) (young) 150M->103M(512M), 0.0097738 secs]
+Application time: 5.4205206 seconds
+[GC pause (G1 Evacuation Pause) (young) 310M->175M(512M), 0.0143059 secs]
+Application time: 5.1735126 seconds
+[GC pause (G1 Evacuation Pause) (young) 340M->267M(512M), 0.0202310 secs]
+Application time: 8.1215244 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 367M->331M(512M), 0.0151272 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0050414 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0048161 secs]
+Application time: 0.0099568 seconds
+[GC remark, 0.0038806 secs]
+Application time: 0.0034036 seconds
+[GC cleanup 342M->114M(512M), 0.0012824 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002312 secs]
+Application time: 0.0053968 seconds
+[GC pause (G1 Evacuation Pause) (young) 167M->158M(512M), 0.0130752 secs]
+Application time: 5.2891685 seconds
+[GC pause (G1 Evacuation Pause) (young) 323M->271M(512M), 0.0187488 secs]
+Application time: 5.5010232 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 365M->335M(512M), 0.0140997 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0013822 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0187322 secs]
+Application time: 0.0202011 seconds
+[GC remark, 0.0025641 secs]
+Application time: 0.0003501 seconds
+[GC cleanup 349M->115M(512M), 0.0007932 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002607 secs]
+Application time: 0.0158402 seconds
+[GC pause (G1 Evacuation Pause) (young) 162M->154M(512M), 0.0121263 secs]
+Application time: 5.1668698 seconds
+[GC pause (G1 Evacuation Pause) (young) 317M->259M(512M), 0.0196324 secs]
+Application time: 5.8671758 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 359M->322M(512M), 0.0147888 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0040865 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0129010 secs]
+Application time: 0.0171378 seconds
+[GC remark, 0.0020867 secs]
+Application time: 0.0001429 seconds
+[GC cleanup 337M->116M(512M), 0.0006578 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002219 secs]
+Application time: 0.0278738 seconds
+[GC pause (G1 Evacuation Pause) (young) 169M->162M(512M), 0.0121627 secs]
+Application time: 5.2948578 seconds
+[GC pause (G1 Evacuation Pause) (young) 320M->264M(512M), 0.0189068 secs]
+Application time: 7.0506240 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 361M->321M(512M), 0.0132981 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0012396 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0155370 secs]
+Application time: 0.0168790 seconds
+[GC remark, 0.0027080 secs]
+Application time: 0.0003545 seconds
+[GC cleanup 340M->117M(512M), 0.0008526 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002946 secs]
+Application time: 0.0058277 seconds
+[GC pause (G1 Evacuation Pause) (young) 166M->159M(512M), 0.0130598 secs]
+Application time: 7.3169212 seconds
+[GC pause (G1 Evacuation Pause) (young) 322M->264M(512M), 0.0191465 secs]
+Application time: 6.3045267 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 362M->325M(512M), 0.0142926 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0076549 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0044993 secs]
+Application time: 0.0122832 seconds
+[GC remark, 0.0020746 secs]
+Application time: 0.0031444 seconds
+[GC cleanup 341M->120M(512M), 0.0006206 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0001688 secs]
+Application time: 0.0163222 seconds
+[GC pause (G1 Evacuation Pause) (young) 171M->164M(512M), 0.0132629 secs]
+Application time: 7.2869845 seconds
+[GC pause (G1 Evacuation Pause) (young) 322M->264M(512M), 0.0177590 secs]
+Application time: 5.9457847 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 362M->320M(512M), 0.0128517 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0059719 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0040131 secs]
+Application time: 0.0100389 seconds
+[GC remark, 0.0025458 secs]
+Application time: 0.0091906 seconds
+[GC cleanup 341M->123M(512M), 0.0009335 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0002393 secs]
+Application time: 0.0095031 seconds
+[GC pause (G1 Evacuation Pause) (young) 171M->163M(512M), 0.0134667 secs]
+Application time: 5.9219503 seconds
+Iteration 1 (120s) ends:   Wed May 16 01:20:37 GMT 2018
+Iteration 1 (120s) result: 17.81 ops/m
+
+Valid run!
+Score on scimark.lu.large: 17.81 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.sor.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:20:37 GMT 2018
+Application time: 2.5795867 seconds
+Application time: 0.0002488 seconds
+Application time: 0.0061099 seconds
+[GC pause (G1 Evacuation Pause) (young) 322M->196M(512M), 0.0089699 secs]
+Application time: 0.0001964 seconds
+Application time: 7.0006003 seconds
+Warmup (60s) ends:   Wed May 16 01:21:49 GMT 2018
+Warmup (60s) result: 16.42 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 01:21:49 GMT 2018
+Application time: 65.2912048 seconds
+Application time: 126.1596856 seconds
+Iteration 1 (120s) ends:   Wed May 16 01:23:59 GMT 2018
+Iteration 1 (120s) result: 16.89 ops/m
+
+Valid run!
+Score on scimark.sor.large: 16.89 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.sparse.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:23:59 GMT 2018
+Application time: 0.0024603 seconds
+Application time: 0.0004642 seconds
+Application time: 0.0046469 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 327M->255M(512M), 0.0092670 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0005525 secs]
+[GC concurrent-mark-start]
+Application time: 0.0006020 seconds
+[GC concurrent-mark-end, 0.0082362 secs]
+Application time: 0.0042581 seconds
+[GC remark, 0.0036048 secs]
+Application time: 0.0061276 seconds
+[GC cleanup 285M->159M(512M), 0.0005470 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0001064 secs]
+Application time: 6.5176619 seconds
+[GC pause (G1 Humongous Allocation) (young) 294M->95M(512M), 0.0056767 secs]
+Application time: 10.2052422 seconds
+[GC pause (G1 Humongous Allocation) (mixed) 393M->93M(512M), 0.0029875 secs]
+Application time: 3.2506757 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 193M->93M(512M), 0.0023581 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002964 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0034957 secs]
+Application time: 0.0121164 seconds
+[GC remark, 0.0032754 secs]
+Application time: 0.0136199 seconds
+[GC cleanup 158M->95M(512M), 0.0007475 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000701 secs]
+Application time: 11.2660488 seconds
+[GC pause (G1 Humongous Allocation) (young) 378M->30M(512M), 0.0026757 secs]
+Application time: 1.0148675 seconds
+Application time: 7.6104909 seconds
+[GC pause (G1 Humongous Allocation) (mixed) 409M->60M(512M), 0.0145235 secs]
+Application time: 3.6220006 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0115009 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001255 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120361 secs]
+Application time: 0.0122677 seconds
+[GC remark, 0.0021525 secs]
+Application time: 0.0047112 seconds
+[GC cleanup 110M->110M(512M), 0.0005288 secs]
+Warmup (60s) ends:   Wed May 16 01:25:04 GMT 2018
+Warmup (60s) result: 30.77 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 01:25:04 GMT 2018
+Application time: 6.2190065 seconds
+Application time: 3.8292656 seconds
+[GC pause (G1 Humongous Allocation) (young) 379M->29M(512M), 0.0032248 secs]
+Application time: 3.9556592 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0153207 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0054928 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0046818 secs]
+Application time: 0.0102892 seconds
+[GC remark, 0.0025393 secs]
+Application time: 0.0033779 seconds
+[GC cleanup 110M->110M(512M), 0.0005832 secs]
+Application time: 11.4032793 seconds
+[GC pause (G1 Humongous Allocation) (young) 377M->29M(512M), 0.0032639 secs]
+Application time: 3.7348529 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0128499 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0085221 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0031179 secs]
+Application time: 0.0197406 seconds
+[GC remark, 0.0028591 secs]
+Application time: 0.0159058 seconds
+[GC cleanup 127M->127M(512M), 0.0005863 secs]
+Application time: 10.5138636 seconds
+[GC pause (G1 Humongous Allocation) (young) 377M->29M(512M), 0.0039114 secs]
+Application time: 3.9680959 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0132874 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0117857 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0032595 secs]
+Application time: 0.0151528 seconds
+[GC remark, 0.0029987 secs]
+Application time: 0.0173778 seconds
+[GC cleanup 126M->126M(512M), 0.0006946 secs]
+Application time: 9.9383576 seconds
+[GC pause (G1 Humongous Allocation) (young) 377M->29M(512M), 0.0025063 secs]
+Application time: 3.5027465 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0163738 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0002204 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0185177 secs]
+Application time: 0.0188572 seconds
+[GC remark, 0.0035422 secs]
+Application time: 0.0082111 seconds
+[GC cleanup 126M->126M(512M), 0.0006508 secs]
+Application time: 10.5093373 seconds
+[GC pause (G1 Humongous Allocation) (young) 377M->29M(512M), 0.0029322 secs]
+Application time: 3.6211995 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0154426 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0100605 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0033376 secs]
+Application time: 0.0135609 seconds
+[GC remark, 0.0033986 secs]
+Application time: 0.0216251 seconds
+[GC cleanup 126M->126M(512M), 0.0007418 secs]
+Application time: 10.2218654 seconds
+[GC pause (G1 Humongous Allocation) (young) 377M->29M(512M), 0.0037901 secs]
+Application time: 3.6209877 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 210M->60M(512M), 0.0155937 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0060117 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0038569 secs]
+Application time: 0.0099704 seconds
+[GC remark, 0.0028246 secs]
+Application time: 0.0024678 seconds
+[GC cleanup 110M->110M(512M), 0.0007049 secs]
+Application time: 3.7098619 seconds
+Iteration 1 (120s) ends:   Wed May 16 01:27:09 GMT 2018
+Iteration 1 (120s) result: 28.61 ops/m
+
+Valid run!
+Score on scimark.sparse.large: 28.61 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.monte_carlo
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 01:27:09 GMT 2018
+Application time: 0.0026020 seconds
+Application time: 0.0001794 seconds
+Application time: 1.1867626 seconds
+Application time: 20.0115355 seconds
+Application time: 7.0090447 seconds
+Application time: 6.0004891 seconds
+Warmup (60s) ends:   Wed May 16 01:28:10 GMT 2018
+Warmup (60s) result: 105.30 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 01:28:10 GMT 2018
+Application time: 26.7765682 seconds
+Application time: 13.0011506 seconds
+Application time: 100.0105917 seconds
+Application time: 7.3247607 seconds
+Iteration 1 (120s) ends:   Wed May 16 01:30:11 GMT 2018
+Iteration 1 (120s) result: 105.11 ops/m
+
+Valid run!
+Score on scimark.monte_carlo: 105.11 ops/m
+
+Application time: 0.7502553 seconds

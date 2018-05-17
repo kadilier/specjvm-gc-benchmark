@@ -1,0 +1,433 @@
+Application time: 0.0400710 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        scimark.fft.large scimark.lu.large scimark.sor.large scimark.sparse.large scimark.monte_carlo
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Wed May 16 00:45:03 GMT 2018
+Application time: 0.1362796 seconds
+[GC pause (G1 Evacuation Pause) (young) 7168K->2991K(64M), 0.0040296 secs]
+Application time: 0.0446245 seconds
+[Full GC (System.gc())  5464K->2686K(64M), 0.0100042 secs]
+Application time: 0.0011567 seconds
+[Full GC (System.gc())  2686K->2410K(64M), 0.0068177 secs]
+Iteration 1 (1 operation) ends:   Wed May 16 00:45:03 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.fft.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 00:45:03 GMT 2018
+Application time: 0.0129510 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 2841K->3946K(64M), 0.0007589 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0001090 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0039146 secs]
+Application time: 0.0041508 seconds
+[GC remark, 0.0013798 secs]
+Application time: 0.0000308 seconds
+[GC cleanup 3946K->3946K(64M), 0.0001512 secs]
+Application time: 0.0025474 seconds
+[GC pause (G1 Humongous Allocation) (young) 35M->35M(64M), 0.0006762 secs]
+Application time: 0.0000481 seconds
+[Full GC (Allocation Failure)  35M->34M(64M), 0.0088826 secs]
+[Full GC (Allocation Failure)  34M->33M(64M), 0.0052283 secs]
+Application time: 0.0120963 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 33M->33M(64M), 0.0006792 secs]
+[GC concurrent-root-region-scan-start]
+Application time: 0.0000270 seconds
+[GC pause (G1 Humongous Allocation) (young)[GC concurrent-root-region-scan-end, 0.0001635 secs]
+[GC concurrent-mark-start]
+ 33M->33M(64M), 0.0005454 secs]
+Application time: 0.0000447 seconds
+[Full GC (Allocation Failure)  33M->33M(64M), 0.0050395 secs]
+[Full GC (Allocation Failure)  33M->33M(64M), 0.0043638 secs]
+[GC concurrent-mark-abort]
+Application time: 1.6484450 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 34M->33M(64M), 0.0010398 secs]
+[GC concurrent-root-region-scan-start]
+Application time: 0.0000468 seconds
+[GC pause (G1 Humongous Allocation) (young)[GC concurrent-root-region-scan-end, 0.0001795 secs]
+[GC concurrent-mark-start]
+ 33M->33M(64M), 0.0006293 secs]
+Application time: 0.0000939 seconds
+[Full GC (Allocation Failure)  33M->33M(64M), 0.0065224 secs]
+[Full GC (Allocation Failure)  33M->33M(64M), 0.0053040 secs]
+[GC concurrent-mark-abort]
+Warmup (60s) ends:   Wed May 16 00:45:04 GMT 2018
+Warmup (60s) result:  **NOT VALID**
+
+Errors in benchmark: scimark.fft.large
+  [warmup] Harness interruped during measurement period.
+  [warmup][bt:2|op:1] java.lang.OutOfMemoryError: Java heap space
+  [warmup][bt:1|op:1] java.lang.OutOfMemoryError: Java heap space
+Score on scimark.fft.large:  **NOT VALID**
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.lu.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 00:45:04 GMT 2018
+Application time: 0.0163157 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 52M->56M(64M), 0.0049348 secs]
+Application time: 0.0001926 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 57M->57M(64M), 0.0011427 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000254 secs]
+[GC concurrent-mark-start]
+Application time: 0.0002998 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->59M(64M), 0.0008166 secs]
+Application time: 0.0003357 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0006511 secs]
+Application time: 0.0000884 seconds
+[Full GC (Allocation Failure)  62M->25M(64M), 0.0146200 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0013497 seconds
+[GC pause (G1 Evacuation Pause) (young) 42M->42M(64M), 0.0047879 secs]
+Application time: 0.0006782 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 50M->50M(64M), 0.0019803 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000386 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0058265 secs]
+Application time: 0.0094622 seconds
+[GC remark, 0.0024178 secs]
+Application time: 0.0056063 seconds
+[GC cleanup 58M->58M(64M), 0.0002603 secs]
+Application time: 0.0002202 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 58M->59M(64M), 0.0013990 secs]
+Application time: 0.0004873 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0008008 secs]
+Application time: 0.0000296 seconds
+[Full GC (Allocation Failure)  63M->61M(64M), 0.0131508 secs]
+Application time: 0.0002038 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0006574 secs]
+Application time: 0.0001445 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0062889 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0051620 secs]
+Application time: 0.0072951 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0004521 secs]
+Application time: 0.0000510 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0004054 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000143 secs]
+[GC concurrent-mark-start]
+Application time: 0.0023981 seconds
+[GC concurrent-mark-end, 0.0023787 secs]
+[Full GC (Allocation Failure)  62M->33M(64M), 0.0121097 secs]
+Application time: 0.0027164 seconds
+[GC pause (G1 Evacuation Pause) (young) 48M->48M(64M), 0.0028088 secs]
+Application time: 0.0044614 seconds
+[GC remark, 0.0000111 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0000518 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->54M(64M), 0.0013578 secs]
+Application time: 0.0006485 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 59M->60M(64M), 0.0008979 secs]
+Application time: 0.0003026 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark)-- 63M->63M(64M), 0.0007516 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000154 secs]
+[GC concurrent-mark-start]
+Application time: 0.0033964 seconds
+[GC concurrent-mark-end, 0.0033781 secs]
+[Full GC (Allocation Failure)  63M->61M(64M), 0.0111119 secs]
+Application time: 0.0001684 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0005865 secs]
+Application time: 0.0000349 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0058882 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0047518 secs]
+Application time: 0.0001092 seconds
+[GC remark, 0.0000085 secs]
+Application time: 0.0000393 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0003757 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0000475 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0003766 secs]
+Application time: 0.0000286 seconds
+[Full GC (Allocation Failure)  62M->33M(64M), 0.0046271 secs]
+Application time: 0.1288838 seconds
+[GC pause (G1 Evacuation Pause) (young) 47M->47M(64M), 0.0028454 secs]
+Application time: 0.0007916 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 52M->52M(64M), 0.0015783 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000537 secs]
+[GC concurrent-mark-start]
+Application time: 0.0050037 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->56M(64M), 0.0013929 secs]
+Application time: 0.0005354 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->59M(64M), 0.0012111 secs]
+Application time: 0.0005923 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0037070 secs]
+Application time: 0.0001125 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.0206418 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0095643 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001542 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0006452 secs]
+Application time: 0.0000375 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006775 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000105 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0047929 secs]
+Application time: 0.0048530 seconds
+[Full GC (Allocation Failure)  62M->1342K(64M), 0.0087341 secs]
+Warmup (60s) ends:   Wed May 16 00:45:05 GMT 2018
+Warmup (60s) result:  **NOT VALID**
+
+Errors in benchmark: scimark.lu.large
+  [warmup] Harness interruped during measurement period.
+  [warmup][bt:2|op:1] java.lang.OutOfMemoryError: Java heap space
+  [warmup][bt:1|op:1] java.lang.OutOfMemoryError: Java heap space
+Score on scimark.lu.large:  **NOT VALID**
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.sor.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+Application time: 0.0060088 seconds
+[GC remark, 0.0000084 secs]
+[GC concurrent-mark-abort]
+
+Warmup (60s) begins: Wed May 16 00:45:05 GMT 2018
+Application time: 0.0132743 seconds
+[GC pause (G1 Evacuation Pause) (young) 31M->30M(64M), 0.0064802 secs]
+Application time: 0.0027159 seconds
+[GC pause (G1 Evacuation Pause) (young) 43M->43M(64M), 0.0041265 secs]
+Application time: 0.0011004 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 49M->49M(64M), 0.0077188 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0058750 secs]
+[GC concurrent-mark-start]
+Application time: 0.0098510 seconds
+[GC pause (G1 Evacuation Pause) (young) 53M->53M(64M), 0.0013621 secs]
+Application time: 0.0010894 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->56M(64M), 0.0010417 secs]
+Application time: 0.0008742 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 59M->61M(64M), 0.0009630 secs]
+Application time: 0.0002808 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0007062 secs]
+Application time: 0.0000415 seconds
+[Full GC (Allocation Failure)  63M->60M(64M), 0.0212081 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0004515 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0014602 secs]
+Application time: 0.0000333 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0096712 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0086544 secs]
+Application time: 0.0000702 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0023866 secs]
+Application time: 0.0059638 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0011347 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000056 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0034757 secs]
+Application time: 0.0034909 seconds
+[Full GC (Allocation Failure)  62M->33M(64M), 0.0167264 secs]
+Application time: 0.0023824 seconds
+[GC pause (G1 Evacuation Pause) (young) 45M->45M(64M), 0.0041843 secs]
+Application time: 0.0007348 seconds
+[GC pause (G1 Evacuation Pause) (young) 50M->50M(64M), 0.0015353 secs]
+Application time: 0.0002401 seconds
+[GC remark, 0.0000074 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0004152 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->55M(64M), 0.0012509 secs]
+Application time: 0.0004902 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark)-- 60M->62M(64M), 0.0011084 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000179 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0037521 secs]
+Application time: 0.0038650 seconds
+[GC remark, 0.0018697 secs]
+Application time: 0.0000403 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0005594 secs]
+Application time: 0.0000264 seconds
+[Full GC (Allocation Failure)  63M->60M(64M), 0.0109149 secs]
+Application time: 0.0002758 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0007603 secs]
+Application time: 0.0000268 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0070837 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.0062932 secs]
+Application time: 0.0000577 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0004484 secs]
+Application time: 0.0000295 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0004138 secs]
+Application time: 0.0000248 seconds
+[Full GC (Allocation Failure)  62M->33M(64M), 0.0059375 secs]
+Application time: 0.0002184 seconds
+[GC cleanup, 0.0000112 secs]
+[GC concurrent-mark-abort]
+Application time: 1.4864647 seconds
+Warmup (60s) ends:   Wed May 16 00:45:13 GMT 2018
+Warmup (60s) result:  **NOT VALID**
+
+Errors in benchmark: scimark.sor.large
+  [warmup] Harness interruped during measurement period.
+  [warmup][bt:2|op:1] java.lang.OutOfMemoryError: Java heap space
+Score on scimark.sor.large:  **NOT VALID**
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.sparse.large
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 00:45:13 GMT 2018
+Application time: 6.5446390 seconds
+Application time: 0.0001810 seconds
+Application time: 0.0034216 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 34M->33M(64M), 0.0011647 secs]
+[GC concurrent-root-region-scan-start]
+Application time: 0.0004874 seconds
+[GC concurrent-root-region-scan-end, 0.0004790 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0120469 secs]
+Application time: 0.0090861 seconds
+[GC remark, 0.0018642 secs]
+Application time: 0.0000561 seconds
+[GC cleanup 36M->7257K(64M), 0.0002147 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000460 secs]
+Application time: 0.0113582 seconds
+[GC pause (G1 Humongous Allocation) (young) 10M->10M(64M), 0.0008577 secs]
+Application time: 0.0000355 seconds
+[Full GC (Allocation Failure)  10M->7729K(64M), 0.0083580 secs]
+[Full GC (Allocation Failure)  7729K->7626K(64M), 0.0066885 secs]
+Application time: 0.0000692 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 7626K->4501K(64M), 0.0005452 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000058 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0030024 secs]
+Application time: 0.0030237 seconds
+[GC pause (G1 Humongous Allocation) (young) 4501K->4501K(64M), 0.0004622 secs]
+Application time: 0.0000719 seconds
+[GC remark, 0.0012150 secs]
+Application time: 0.0000427 seconds
+[Full GC (Allocation Failure)  5013K->4501K(64M), 0.0061954 secs]
+[Full GC (Allocation Failure)  4501K->4501K(64M), 0.0060987 secs]
+Application time: 0.0002957 seconds
+[GC cleanup, 0.0000125 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0088721 seconds
+[GC pause (G1 Humongous Allocation) (young) (initial-mark) 8652K->4533K(64M), 0.0005672 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000685 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0027629 secs]
+Application time: 0.0028342 seconds
+[GC remark, 0.0019894 secs]
+Application time: 0.0000576 seconds
+[GC cleanup 34M->34M(64M), 0.0001691 secs]
+Warmup (60s) ends:   Wed May 16 00:45:16 GMT 2018
+Warmup (60s) result:  **NOT VALID**
+
+Errors in benchmark: scimark.sparse.large
+  [warmup] Harness interruped during measurement period.
+  [warmup][bt:2|op:1] java.lang.OutOfMemoryError: Java heap space
+  [warmup][bt:1|op:1] java.lang.OutOfMemoryError: Java heap space
+Score on scimark.sparse.large:  **NOT VALID**
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   scimark.monte_carlo
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+
+Warmup (60s) begins: Wed May 16 00:45:16 GMT 2018
+Application time: 3.2054996 seconds
+Application time: 0.0009234 seconds
+Application time: 1.0000943 seconds
+Application time: 3.0124140 seconds
+Application time: 11.0011961 seconds
+Application time: 31.9014576 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 59M->10M(64M), 0.0030291 secs]
+Application time: 4.0084336 seconds
+Warmup (60s) ends:   Wed May 16 00:46:18 GMT 2018
+Warmup (60s) result: 107.15 ops/m
+
+Iteration 1 (120s) begins: Wed May 16 00:46:18 GMT 2018
+Application time: 10.0020768 seconds
+Application time: 2.0002384 seconds
+Application time: 2.0065984 seconds
+Application time: 6.0147550 seconds
+Application time: 4.0003321 seconds
+Application time: 31.0116396 seconds
+Application time: 31.0095023 seconds
+Application time: 7.0005929 seconds
+Application time: 1.0079857 seconds
+Iteration 1 (120s) ends:   Wed May 16 00:48:19 GMT 2018
+Iteration 1 (120s) result: 104.99 ops/m
+
+Valid run!
+Score on scimark.monte_carlo: 104.99 ops/m
+
+
+--- --- --- --- --- --- --- --- ---
+
+WARNING! Known issue detected:
+
+
+An Out of Memory Error has been thrown.
+This is an unfortunate but expected error for some configurations.
+The heap size needs to be increased or the amount of live data decreased.
+
+In a peak run where tuning is allowed, use JVM argument -Xmx or equivalent.
+In a base run, it is possible to configure the harness.
+For more info, see /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC/docs/KnownIssues.html
+Application time: 36.7410119 seconds

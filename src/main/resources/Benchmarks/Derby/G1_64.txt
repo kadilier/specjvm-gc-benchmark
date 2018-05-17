@@ -1,0 +1,995 @@
+Application time: 0.0261437 seconds
+
+SPECjvm2008 Peak
+  Properties file:   none
+  Base dir:          /home/kadilier/MaxineVM/maxineGCBenchmark/SPEC
+  Benchmarks:        derby
+
+  WARNING: Run will not be compliant.
+  Property specjvm.create.xml.report must be true for publication.
+  Not a compliant sequence of benchmarks for publication.
+  Property specjvm.run.checksum.validation must be true for publication.
+  Property specjvm.iteration.time must be at least 240 seconds for publication.
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   check
+  Run mode:    static run
+  Test type:   functional
+  Threads:     1
+  Iterations:  1
+  Run length:  1 operation
+
+Iteration 1 (1 operation) begins: Wed May 16 00:17:15 GMT 2018
+Application time: 0.1969684 seconds
+[GC pause (G1 Evacuation Pause) (young) 7168K->3493K(64M), 0.0057724 secs]
+Application time: 0.0568466 seconds
+[Full GC (System.gc())  5384K->2559K(64M), 0.0096764 secs]
+Application time: 0.0042299 seconds
+[Full GC (System.gc())  2559K->2559K(64M), 0.0078465 secs]
+Iteration 1 (1 operation) ends:   Wed May 16 00:17:15 GMT 2018
+Iteration 1 (1 operation) result: PASSED
+
+Valid run!
+
+
+--- --- --- --- --- --- --- --- ---
+
+  Benchmark:   derby
+  Run mode:    timed run
+  Test type:   multi
+  Threads:     2
+  Warmup:      60s
+  Iterations:  1
+  Run length:  120s
+Application time: 0.0803779 seconds
+[GC pause (G1 Evacuation Pause) (young) 9727K->6143K(64M), 0.0108792 secs]
+Application time: 0.0428418 seconds
+[GC pause (G1 Evacuation Pause) (young) 14M->10239K(64M), 0.0151877 secs]
+Application time: 0.0286567 seconds
+[GC pause (G1 Evacuation Pause) (young) 19M->14M(64M), 0.0148942 secs]
+Application time: 0.0516117 seconds
+Application time: 0.0693276 seconds
+[GC pause (G1 Evacuation Pause) (young) 25M->17M(64M), 0.0148517 secs]
+Application time: 0.2861824 seconds
+[GC pause (G1 Evacuation Pause) (young) 19M->19M(64M), 0.0079467 secs]
+Application time: 0.2927342 seconds
+Application time: 0.4287904 seconds
+Application time: 0.1576073 seconds
+Application time: 0.1797515 seconds
+Application time: 0.4426203 seconds
+Application time: 1.0001051 seconds
+Application time: 0.1718596 seconds
+Application time: 0.0474532 seconds
+Application time: 0.0299979 seconds
+[GC pause (G1 Evacuation Pause) (young) 44M->24M(64M), 0.0076836 secs]
+Application time: 0.3225071 seconds
+Application time: 0.0076084 seconds
+Application time: 0.0040378 seconds
+Application time: 0.0967319 seconds
+Application time: 0.0240537 seconds
+Application time: 0.2100754 seconds
+Application time: 0.0139028 seconds
+[GC pause (G1 Evacuation Pause) (young) 49M->25M(64M), 0.0068358 secs]
+Application time: 0.0371158 seconds
+Application time: 0.0202964 seconds
+Application time: 0.0287536 seconds
+Application time: 0.1926176 seconds
+Application time: 0.0000899 seconds
+Application time: 0.0398238 seconds
+[GC pause (G1 Evacuation Pause) (young) 50M->27M(64M), 0.0087459 secs]
+Application time: 0.0200173 seconds
+Application time: 0.0214622 seconds
+Application time: 0.3333360 seconds
+[GC pause (G1 Evacuation Pause) (young) 52M->28M(64M), 0.0078944 secs]
+Application time: 0.2629401 seconds
+[GC pause (G1 Evacuation Pause) (young) 51M->30M(64M), 0.0075409 secs]
+Application time: 0.1654458 seconds
+Application time: 0.1604350 seconds
+[GC pause (G1 Evacuation Pause) (young) 51M->33M(64M), 0.0103766 secs]
+Application time: 0.2329702 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 52M->35M(64M), 0.0067276 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0010936 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.1085303 secs]
+Application time: 0.1096898 seconds
+[GC remark, 0.0046186 secs]
+Application time: 0.0000710 seconds
+[GC cleanup 40M->38M(64M), 0.0002542 secs]
+[GC concurrent-cleanup-start]
+[GC concurrent-cleanup-end, 0.0000116 secs]
+Application time: 0.1448446 seconds
+[GC pause (G1 Evacuation Pause) (young) 50M->34M(64M), 0.0043638 secs]
+Application time: 0.0169233 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 35M->31M(64M), 0.0054702 secs]
+Application time: 0.0144578 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 33M->30M(64M), 0.0141825 secs]
+Application time: 0.2427992 seconds
+[GC pause (G1 Evacuation Pause) (young) 53M->32M(64M), 0.0071686 secs]
+Application time: 0.2232527 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 53M->34M(64M), 0.0047748 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0014264 secs]
+[GC concurrent-mark-start]
+Application time: 0.0646170 seconds
+[GC concurrent-mark-end, 0.0842557 secs]
+Application time: 0.0208703 seconds
+[GC remark, 0.0061648 secs]
+Application time: 0.0003395 seconds
+[GC cleanup 39M->39M(64M), 0.0002631 secs]
+Application time: 0.1530346 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->35M(64M), 0.0071322 secs]
+Application time: 0.0032202 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 36M->34M(64M), 0.0082223 secs]
+Application time: 0.0229582 seconds
+Application time: 0.2966428 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->35M(64M), 0.0062480 secs]
+Application time: 0.1698888 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 52M->37M(64M), 0.0060851 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016659 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0619704 secs]
+Application time: 0.0637495 seconds
+[GC remark, 0.0052791 secs]
+Application time: 0.0000473 seconds
+[GC cleanup 42M->42M(64M), 0.0003177 secs]
+Application time: 0.0971416 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->39M(64M), 0.0060550 secs]
+Application time: 0.0109724 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 40M->39M(64M), 0.0040684 secs]
+Application time: 0.1641548 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->39M(64M), 0.0058626 secs]
+Application time: 0.1156261 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 53M->41M(64M), 0.0096695 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0013175 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0614430 secs]
+Application time: 0.0628815 seconds
+[GC remark, 0.0053794 secs]
+Application time: 0.0000510 seconds
+[GC cleanup 45M->45M(64M), 0.0003319 secs]
+Application time: 0.0764256 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->42M(64M), 0.0045819 secs]
+Application time: 0.0079048 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 43M->42M(64M), 0.0056680 secs]
+Application time: 0.1077466 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->43M(64M), 0.0064247 secs]
+Application time: 0.0872273 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 54M->45M(64M), 0.0040410 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0015997 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0683377 secs]
+Application time: 0.0700155 seconds
+[GC remark, 0.0050420 secs]
+Application time: 0.0000727 seconds
+[GC cleanup 48M->48M(64M), 0.0003174 secs]
+Application time: 0.4417273 seconds
+Application time: 0.0001728 seconds
+Application time: 0.0247210 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->46M(64M), 0.0046853 secs]
+Application time: 0.0041134 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 47M->44M(64M), 0.0088215 secs]
+Application time: 0.0039369 seconds
+Application time: 0.0837607 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->44M(64M), 0.0093870 secs]
+Application time: 0.1185655 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 53M->46M(64M), 0.0050696 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0015717 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0791939 secs]
+Application time: 0.0808620 seconds
+[GC remark, 0.0044920 secs]
+Application time: 0.0000422 seconds
+[GC cleanup 54M->54M(64M), 0.0003290 secs]
+Application time: 0.0061758 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->47M(64M), 0.0043365 secs]
+Application time: 0.0038950 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 48M->47M(64M), 0.0062707 secs]
+Application time: 0.0884279 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->47M(64M), 0.0074760 secs]
+Application time: 0.0367917 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 53M->48M(64M), 0.0053020 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016964 secs]
+[GC concurrent-mark-start]
+Application time: 0.0655566 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->49M(64M), 0.0067985 secs]
+[GC concurrent-mark-end, 0.0871479 secs]
+Application time: 0.0162390 seconds
+[GC remark, 0.0082393 secs]
+Application time: 0.0000468 seconds
+[GC cleanup 49M->49M(64M), 0.0005371 secs]
+Application time: 0.0488626 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->49M(64M), 0.0034685 secs]
+Application time: 0.0386329 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 51M->47M(64M), 0.0094509 secs]
+Application time: 0.0558918 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->48M(64M), 0.0060025 secs]
+Application time: 0.0442834 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 54M->49M(64M), 0.0035802 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0015192 secs]
+[GC concurrent-mark-start]
+Application time: 0.0166283 seconds
+Application time: 0.0461379 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->50M(64M), 0.0072371 secs]
+[GC concurrent-mark-end, 0.0917719 secs]
+Application time: 0.0228062 seconds
+[GC remark, 0.0076601 secs]
+Application time: 0.0000525 seconds
+[GC cleanup 51M->51M(64M), 0.0005527 secs]
+Application time: 0.0622743 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->51M(64M), 0.0080266 secs]
+Application time: 0.0104086 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 53M->49M(64M), 0.0065726 secs]
+Application time: 0.0550162 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->50M(64M), 0.0089640 secs]
+Application time: 0.0377156 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->50M(64M), 0.0074687 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0012523 secs]
+[GC concurrent-mark-start]
+[GC concurrent-mark-end, 0.0767730 secs]
+Application time: 0.0785442 seconds
+[GC remark, 0.0050070 secs]
+Application time: 0.0000473 seconds
+[GC cleanup 54M->54M(64M), 0.0004053 secs]
+Application time: 0.0014044 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->51M(64M), 0.0033024 secs]
+Application time: 0.0097605 seconds
+Application time: 0.0054460 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 53M->50M(64M), 0.0054651 secs]
+Application time: 0.0348012 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->51M(64M), 0.0050611 secs]
+Application time: 0.0289747 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->52M(64M), 0.0034848 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0017212 secs]
+[GC concurrent-mark-start]
+Application time: 0.0289655 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->52M(64M), 0.0029311 secs]
+Application time: 0.0254151 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->52M(64M), 0.0026198 secs]
+Application time: 0.0146640 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->53M(64M), 0.0028237 secs]
+[GC concurrent-mark-end, 0.0873419 secs]
+Application time: 0.0110090 seconds
+[GC remark, 0.0060899 secs]
+Application time: 0.0000597 seconds
+[GC cleanup 54M->54M(64M), 0.0003760 secs]
+Application time: 0.0317062 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0031320 secs]
+Application time: 0.0208028 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 55M->51M(64M), 0.0060600 secs]
+Application time: 0.0224022 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->53M(64M), 0.0049562 secs]
+Application time: 0.0181454 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->53M(64M), 0.0028312 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0013394 secs]
+[GC concurrent-mark-start]
+Application time: 0.0229594 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0036764 secs]
+Application time: 0.0410288 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0030219 secs]
+[GC concurrent-mark-end, 0.0862154 secs]
+Application time: 0.0164434 seconds
+[GC remark, 0.0054592 secs]
+Application time: 0.0000671 seconds
+[GC cleanup 54M->54M(64M), 0.0004569 secs]
+Application time: 0.0096879 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->54M(64M), 0.0034896 secs]
+Application time: 0.0271086 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 56M->52M(64M), 0.0110543 secs]
+Application time: 0.0887469 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->52M(64M), 0.0083099 secs]
+Application time: 0.0253377 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->52M(64M), 0.0043776 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0022051 secs]
+[GC concurrent-mark-start]
+Application time: 0.0533588 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0033438 secs]
+[GC concurrent-mark-end, 0.0839246 secs]
+Application time: 0.0292542 seconds
+[GC remark, 0.0102552 secs]
+Application time: 0.0000709 seconds
+[GC cleanup 55M->55M(64M), 0.0004263 secs]
+Application time: 0.0007422 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0029726 secs]
+Application time: 0.0121391 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 55M->53M(64M), 0.0033732 secs]
+Application time: 0.0102506 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0033746 secs]
+Application time: 0.0201314 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->53M(64M), 0.0034664 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018005 secs]
+[GC concurrent-mark-start]
+Application time: 0.0302711 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0029350 secs]
+Application time: 0.0160157 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->54M(64M), 0.0028526 secs]
+[GC concurrent-mark-end, 0.0866927 secs]
+Application time: 0.0362434 seconds
+[GC remark, 0.0047200 secs]
+Application time: 0.0000862 seconds
+[GC cleanup 55M->55M(64M), 0.0004062 secs]
+Application time: 0.0024089 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->54M(64M), 0.0029277 secs]
+Application time: 0.0143284 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 56M->54M(64M), 0.0058694 secs]
+Application time: 0.0197441 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->55M(64M), 0.0048287 secs]
+Application time: 0.0142031 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 57M->55M(64M), 0.0045962 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016790 secs]
+[GC concurrent-mark-start]
+Application time: 0.0445304 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->56M(64M), 0.0034970 secs]
+Application time: 0.0188099 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0033597 secs]
+Application time: 0.0183907 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0024564 secs]
+[GC concurrent-mark-end, 0.0912609 secs]
+Application time: 0.0012533 seconds
+[GC remark, 0.0048413 secs]
+Application time: 0.0000733 seconds
+[GC cleanup 57M->57M(64M), 0.0004422 secs]
+Application time: 0.0081398 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0024597 secs]
+Application time: 0.0253599 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 58M->55M(64M), 0.0042508 secs]
+Application time: 0.0133782 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->56M(64M), 0.0044132 secs]
+Application time: 0.0131420 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 58M->56M(64M), 0.0021659 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0009623 secs]
+[GC concurrent-mark-start]
+Application time: 0.0139812 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0021975 secs]
+Application time: 0.0180548 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0022649 secs]
+Application time: 0.0143644 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0024987 secs]
+[GC concurrent-mark-end, 0.0897973 secs]
+Application time: 0.0368425 seconds
+[GC remark, 0.0049217 secs]
+Application time: 0.0000534 seconds
+[GC cleanup 58M->58M(64M), 0.0004535 secs]
+Application time: 0.0002512 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->57M(64M), 0.0025494 secs]
+Application time: 0.0223825 seconds
+[GC pause (G1 Evacuation Pause) (mixed)-- 59M->61M(64M), 0.0176549 secs]
+Application time: 0.0117833 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0100288 secs]
+Application time: 0.0000370 seconds
+[Full GC (Allocation Failure)  63M->48M(64M), 0.1454759 secs]
+Application time: 0.0692910 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->49M(64M), 0.0036202 secs]
+Application time: 0.0458732 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->49M(64M), 0.0043198 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0012400 secs]
+[GC concurrent-mark-start]
+Application time: 0.0322609 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->49M(64M), 0.0038319 secs]
+Application time: 0.0479703 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->50M(64M), 0.0033707 secs]
+[GC concurrent-mark-end, 0.0944999 secs]
+Application time: 0.0078079 seconds
+[GC remark, 0.0046828 secs]
+Application time: 0.0000372 seconds
+[GC cleanup 50M->50M(64M), 0.0004622 secs]
+Application time: 0.0630842 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->51M(64M), 0.0036686 secs]
+Application time: 0.0289593 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->51M(64M), 0.0038987 secs]
+Application time: 0.0191000 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->51M(64M), 0.0036190 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0022139 secs]
+[GC concurrent-mark-start]
+Application time: 0.0285196 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->52M(64M), 0.0034127 secs]
+Application time: 0.0349103 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->52M(64M), 0.0035403 secs]
+Application time: 0.0157049 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->52M(64M), 0.0033630 secs]
+[GC concurrent-mark-end, 0.0945660 secs]
+Application time: 0.0066859 seconds
+[GC remark, 0.0044112 secs]
+Application time: 0.0000370 seconds
+[GC cleanup 53M->53M(64M), 0.0004459 secs]
+Application time: 0.0052716 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->52M(64M), 0.0034912 secs]
+Application time: 0.0721092 seconds
+[GC pause (G1 Evacuation Pause) (young) 54M->53M(64M), 0.0038586 secs]
+Application time: 0.0151032 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 55M->53M(64M), 0.0034288 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018638 secs]
+[GC concurrent-mark-start]
+Application time: 0.0178046 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0032813 secs]
+Application time: 0.0260980 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->53M(64M), 0.0035580 secs]
+Application time: 0.0260019 seconds
+[GC pause (G1 Evacuation Pause) (young) 55M->54M(64M), 0.0033552 secs]
+[GC concurrent-mark-end, 0.0924075 secs]
+Application time: 0.0136187 seconds
+[GC remark, 0.0059559 secs]
+Application time: 0.0000855 seconds
+[GC cleanup 56M->56M(64M), 0.0004539 secs]
+Application time: 0.0004319 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->54M(64M), 0.0031735 secs]
+Application time: 0.0114355 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->54M(64M), 0.0032678 secs]
+Application time: 0.0204443 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 56M->54M(64M), 0.0037096 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018243 secs]
+[GC concurrent-mark-start]
+Application time: 0.0321976 seconds
+[GC pause (G1 Evacuation Pause) (young) 56M->55M(64M), 0.0035708 secs]
+Application time: 0.0133280 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->55M(64M), 0.0034869 secs]
+Application time: 0.0106282 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->55M(64M), 0.0030571 secs]
+[GC concurrent-mark-end, 0.0909325 secs]
+Application time: 0.0260236 seconds
+[GC remark, 0.0049967 secs]
+Application time: 0.0000584 seconds
+[GC cleanup 56M->56M(64M), 0.0004787 secs]
+Application time: 0.0269864 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->55M(64M), 0.0028166 secs]
+Application time: 0.0245952 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->55M(64M), 0.0039096 secs]
+Application time: 0.0237448 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 57M->56M(64M), 0.0037803 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016258 secs]
+[GC concurrent-mark-start]
+Application time: 0.0564694 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0041197 secs]
+Application time: 0.0292223 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0042428 secs]
+[GC concurrent-mark-end, 0.0994964 secs]
+Application time: 0.0067077 seconds
+[GC remark, 0.0050967 secs]
+Application time: 0.0000564 seconds
+[GC cleanup 57M->57M(64M), 0.0004994 secs]
+Application time: 0.0108150 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0035660 secs]
+Application time: 0.0125333 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0034602 secs]
+Application time: 0.0129691 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 58M->56M(64M), 0.0033669 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018438 secs]
+[GC concurrent-mark-start]
+Application time: 0.0426911 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->57M(64M), 0.0033426 secs]
+Application time: 0.0418460 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0032665 secs]
+[GC concurrent-mark-end, 0.0943241 secs]
+Application time: 0.0047394 seconds
+[GC remark, 0.0048806 secs]
+Application time: 0.0000517 seconds
+[GC cleanup 57M->57M(64M), 0.0004887 secs]
+Application time: 0.0186427 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0031110 secs]
+Application time: 0.0119434 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0030970 secs]
+Application time: 0.0114845 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 59M->58M(64M), 0.0027469 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0016435 secs]
+[GC concurrent-mark-start]
+Application time: 0.0301030 seconds
+Application time: 0.0321725 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0036551 secs]
+Application time: 0.0195268 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0034556 secs]
+[GC concurrent-mark-end, 0.1013241 secs]
+Application time: 0.0136060 seconds
+[GC remark, 0.0048755 secs]
+Application time: 0.0001072 seconds
+[GC cleanup 59M->59M(64M), 0.0004878 secs]
+Application time: 0.0207669 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0032740 secs]
+Application time: 0.0189108 seconds
+[GC pause (G1 Evacuation Pause) (mixed) 60M->59M(64M), 0.0042495 secs]
+Application time: 0.0108993 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0040815 secs]
+Application time: 0.0107946 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 61M->59M(64M), 0.0033362 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0018085 secs]
+[GC concurrent-mark-start]
+Application time: 0.0192854 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0034599 secs]
+Application time: 0.0396980 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->60M(64M), 0.0037760 secs]
+Application time: 0.0100411 seconds
+Application time: 0.0155631 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->60M(64M), 0.0036411 secs]
+[GC concurrent-mark-end, 0.0947429 secs]
+Application time: 0.0004846 seconds
+[GC remark, 0.0045124 secs]
+Application time: 0.0000447 seconds
+[GC cleanup 60M->60M(64M), 0.0005280 secs]
+Application time: 0.0112913 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->61M(64M), 0.0062969 secs]
+Application time: 0.0133674 seconds
+[GC pause (G1 Evacuation Pause) (mixed)-- 63M->63M(64M), 0.0183454 secs]
+Application time: 0.0000391 seconds
+[Full GC (Allocation Failure)  63M->55M(64M), 0.1405531 secs]
+Application time: 0.0250538 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->55M(64M), 0.0049297 secs]
+Application time: 0.0208745 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 57M->55M(64M), 0.0084331 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0031254 secs]
+[GC concurrent-mark-start]
+Application time: 0.0284721 seconds
+[GC pause (G1 Evacuation Pause) (young) 57M->56M(64M), 0.0110859 secs]
+Application time: 0.0186591 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0045936 secs]
+Application time: 0.0229413 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0037528 secs]
+[GC concurrent-mark-end, 0.1224773 secs]
+Application time: 0.0357287 seconds
+[GC remark, 0.0059062 secs]
+Application time: 0.0000673 seconds
+[GC cleanup 58M->58M(64M), 0.0005594 secs]
+Application time: 0.0046547 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->56M(64M), 0.0044350 secs]
+Application time: 0.0276700 seconds
+[GC pause (G1 Evacuation Pause) (young) 58M->57M(64M), 0.0042216 secs]
+Application time: 0.0130989 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 59M->57M(64M), 0.0037663 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0020089 secs]
+[GC concurrent-mark-start]
+Application time: 0.0240118 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0041070 secs]
+Application time: 0.0186659 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0043005 secs]
+Application time: 0.0184097 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->57M(64M), 0.0035342 secs]
+Application time: 0.0271288 seconds
+[GC pause (G1 Evacuation Pause) (young) 59M->58M(64M), 0.0037531 secs]
+Application time: 0.0222556 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0033629 secs]
+[GC concurrent-mark-end, 0.1348251 secs]
+Application time: 0.0066196 seconds
+[GC remark, 0.0050511 secs]
+Application time: 0.0000417 seconds
+[GC cleanup 59M->59M(64M), 0.0004832 secs]
+Application time: 0.0061370 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0039110 secs]
+Application time: 0.0130037 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->58M(64M), 0.0030647 secs]
+Application time: 0.0525102 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 60M->58M(64M), 0.0044740 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0021669 secs]
+[GC concurrent-mark-start]
+Application time: 0.0383207 seconds
+[GC pause (G1 Evacuation Pause) (young) 60M->59M(64M), 0.0038864 secs]
+Application time: 0.0285945 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0034535 secs]
+Application time: 0.0157347 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0036575 secs]
+Application time: 0.0188773 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0034291 secs]
+[GC concurrent-mark-end, 0.1212708 secs]
+Application time: 0.0070089 seconds
+[GC remark, 0.0050838 secs]
+Application time: 0.0000766 seconds
+[GC cleanup 61M->61M(64M), 0.0005435 secs]
+Application time: 0.0004115 seconds
+Application time: 0.0055885 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 61M->60M(64M), 0.0046244 secs]
+Application time: 0.0176098 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0123571 secs]
+Application time: 0.0000282 seconds
+[Full GC (Allocation Failure)  62M->58M(64M), 0.1370243 secs]
+Application time: 0.6960329 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->58M(64M), 0.0035834 secs]
+Application time: 0.0168505 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 60M->59M(64M), 0.0039075 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0026769 secs]
+[GC concurrent-mark-start]
+Application time: 0.0619162 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0045340 secs]
+Application time: 0.0167781 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0048420 secs]
+Application time: 0.0262143 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0042309 secs]
+[GC concurrent-mark-end, 0.1346114 secs]
+Application time: 0.0181642 seconds
+[GC remark, 0.0069129 secs]
+Application time: 0.0000721 seconds
+[GC cleanup 61M->61M(64M), 0.0028945 secs]
+Application time: 0.0028558 seconds
+[GC pause (G1 Evacuation Pause) (young) 61M->59M(64M), 0.0055273 secs]
+Application time: 0.0182043 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 61M->60M(64M), 0.0065401 secs]
+Application time: 0.0124694 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark)-- 62M->62M(64M), 0.0119546 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000102 secs]
+[GC concurrent-mark-start]
+Application time: 0.0055719 seconds
+[Full GC (Allocation Failure)  62M->59M(64M), 0.1431978 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0195490 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->59M(64M), 0.0028538 secs]
+Application time: 0.0204251 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 61M->60M(64M), 0.0040221 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0035754 secs]
+[GC concurrent-mark-start]
+Application time: 0.0176217 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->60M(64M), 0.0045065 secs]
+Application time: 0.0539428 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0098763 secs]
+Application time: 0.0000722 seconds
+[Full GC (Allocation Failure)  63M->60M(64M), 0.1435201 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0205938 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0103482 secs]
+Application time: 0.0000538 seconds
+[Full GC (Allocation Failure)  63M->60M(64M), 0.1450417 secs]
+Application time: 0.0269951 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0140167 secs]
+Application time: 0.0000356 seconds
+[Full GC (Allocation Failure)  63M->60M(64M), 0.1357327 secs]
+Application time: 0.0159616 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0088074 secs]
+Application time: 0.0000466 seconds
+[Full GC (Allocation Failure)  62M->60M(64M), 0.1521831 secs]
+Application time: 0.1515837 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0058870 secs]
+Application time: 0.0000482 seconds
+[Full GC (Allocation Failure)  62M->60M(64M), 0.1183007 secs]
+Application time: 0.0279781 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0067755 secs]
+Application time: 0.0000600 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0029261 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000187 secs]
+[GC concurrent-mark-start]
+Application time: 0.0016020 seconds
+[Full GC (Allocation Failure)  62M->61M(64M), 0.1503344 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0154571 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0079381 secs]
+Application time: 0.0000503 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0024439 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000072 secs]
+[GC concurrent-mark-start]
+Application time: 0.0079382 seconds
+[Full GC (Allocation Failure)  63M->61M(64M), 0.1237445 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0214787 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0073596 secs]
+Application time: 0.0000388 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0027675 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000152 secs]
+[GC concurrent-mark-start]
+Application time: 0.0075685 seconds
+[Full GC (Allocation Failure)  63M->61M(64M), 0.1505885 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0543137 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0080625 secs]
+Application time: 0.0000605 seconds
+[Full GC (Allocation Failure)  63M->61M(64M), 0.1628504 secs]
+Application time: 0.0381964 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0071727 secs]
+Application time: 0.0000377 seconds
+[Full GC (Allocation Failure)  63M->61M(64M), 0.1753554 secs]
+Application time: 0.0036410 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0062858 secs]
+Application time: 0.0000361 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0037600 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000172 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000278 seconds
+[Full GC (Allocation Failure)  62M->61M(64M), 0.1614067 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0090811 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0040343 secs]
+Application time: 0.0000300 seconds
+[Full GC (Allocation Failure)  62M->61M(64M), 0.1444069 secs]
+Application time: 0.0031782 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0029526 secs]
+Application time: 0.0000282 seconds
+[Full GC (Allocation Failure)  62M->61M(64M), 0.1665503 secs]
+Application time: 0.0114090 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0054096 secs]
+Application time: 0.0000305 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0022718 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000096 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000334 seconds
+[Full GC (Allocation Failure)  62M->61M(64M), 0.1447757 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0172149 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 62M->62M(64M), 0.0062302 secs]
+Application time: 0.0000334 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0029980 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000112 secs]
+[GC concurrent-mark-start]
+Application time: 0.0001068 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1393742 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0092608 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0071999 secs]
+Application time: 0.0000465 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1493087 secs]
+Application time: 0.0006226 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0014505 secs]
+Application time: 0.0000255 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1425815 secs]
+Application time: 0.0163641 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0059703 secs]
+Application time: 0.0000337 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0024927 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000091 secs]
+[GC concurrent-mark-start]
+Application time: 0.0001301 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1558204 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0005094 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0018849 secs]
+Application time: 0.0000258 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1454953 secs]
+Application time: 0.0151229 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0056585 secs]
+Application time: 0.0000375 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0016960 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000105 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000343 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1506985 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0089385 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0051809 secs]
+Application time: 0.0000540 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1410860 secs]
+Application time: 0.0123256 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0054737 secs]
+Application time: 0.0000503 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1455545 secs]
+Application time: 0.0066144 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0048616 secs]
+Application time: 0.0000503 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1445564 secs]
+Application time: 0.0121597 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0053029 secs]
+Application time: 0.0000533 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0016158 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000128 secs]
+[GC concurrent-mark-start]
+Application time: 0.0027588 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1581584 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0078145 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0032449 secs]
+Application time: 0.0000277 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0013086 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000100 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000219 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1355491 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0030749 seconds
+[GC pause (G1 Evacuation Pause) (young)-- 63M->63M(64M), 0.0036198 secs]
+Application time: 0.0000255 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 63M->63M(64M), 0.0012839 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000094 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000220 seconds
+[Full GC (Allocation Failure)  63M->62M(64M), 0.1345121 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1327960 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0002855 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0007955 secs]
+Application time: 0.0000588 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0005855 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000067 secs]
+[GC concurrent-mark-start]
+Application time: 0.0113072 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1473782 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1540124 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001404 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0007487 secs]
+Application time: 0.0000210 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006051 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000095 secs]
+[GC concurrent-mark-start]
+Application time: 0.0075688 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1294881 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1250582 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0002955 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0013854 secs]
+Application time: 0.0000380 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0009953 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000058 secs]
+[GC concurrent-mark-start]
+Application time: 0.0021813 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1572727 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1243673 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001886 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0012254 secs]
+Application time: 0.0000334 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0011115 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000125 secs]
+[GC concurrent-mark-start]
+Application time: 0.0001059 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1305264 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1332743 secs]
+[GC concurrent-mark-abort]
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Thread-1"
+Application time: 0.0003434 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0008352 secs]
+Application time: 0.0000271 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006559 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000043 secs]
+[GC concurrent-mark-start]
+Application time: 0.0049374 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1406397 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1513684 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001896 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0010537 secs]
+Application time: 0.0000463 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0009589 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000124 secs]
+[GC concurrent-mark-start]
+Application time: 0.0002144 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1494841 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1699037 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001508 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0011476 secs]
+Application time: 0.0000337 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0007338 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000096 secs]
+[GC concurrent-mark-start]
+Application time: 0.0001684 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1505323 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1376129 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0000870 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0009870 secs]
+Application time: 0.0000247 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006921 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000092 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000222 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1550702 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1638114 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001083 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0015881 secs]
+Application time: 0.0000511 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0010347 secs]
+Application time: 0.0000369 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1767777 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1649693 secs]
+Application time: 0.0001939 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0017427 secs]
+Application time: 0.0000399 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0014348 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000115 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000459 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1538650 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1359354 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0003406 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0008703 secs]
+Application time: 0.0000434 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0007193 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000054 secs]
+[GC concurrent-mark-start]
+Application time: 0.0116126 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1450667 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1313095 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001424 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0007740 secs]
+Application time: 0.0000354 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006324 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000096 secs]
+[GC concurrent-mark-start]
+Application time: 0.0077821 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1464484 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1463321 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001249 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0008813 secs]
+Application time: 0.0000341 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0007079 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000097 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000318 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1443097 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1359586 secs]
+[GC concurrent-mark-abort]
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Program Runner for derby"
+Application time: 0.0002451 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0019506 secs]
+Application time: 0.0000403 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0014267 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000131 secs]
+[GC concurrent-mark-start]
+Application time: 0.0001685 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1538304 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1517769 secs]
+[GC concurrent-mark-abort]
+Application time: 0.0001675 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0008436 secs]
+Application time: 0.0000305 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006781 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000108 secs]
+Application time: 0.0000246 seconds
+[GC concurrent-mark-start]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1464019 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1483963 secs]
+[GC concurrent-mark-abort]
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "main"
+Application time: 0.0002574 seconds
+[GC pause (G1 Evacuation Pause) (young) 62M->62M(64M), 0.0007635 secs]
+Application time: 0.0000271 seconds
+[GC pause (G1 Evacuation Pause) (young) (initial-mark) 62M->62M(64M), 0.0006519 secs]
+[GC concurrent-root-region-scan-start]
+[GC concurrent-root-region-scan-end, 0.0000099 secs]
+[GC concurrent-mark-start]
+Application time: 0.0000209 seconds
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1494245 secs]
+[Full GC (Allocation Failure)  62M->62M(64M), 0.1557499 secs]
+[GC concurrent-mark-abort]
