@@ -55,6 +55,6 @@ Inside *src/main/python* each Python script corresponds to a different GC test.
   
    *mx vm -Xms heapSizeInit -Xmx heapSizeMax -XX:+TraceGCTime -XX:+PrintCompilationTime -jar [SPEC_PARAMS]*
    
-  HotSpot's G1 can be used with the following cmd:
-   command = "java heapSizeInit -Xmx heapSizeMax -XX:+UseG1GC -XX:+PrintGCApplicationConcurrentTime -verbose:gc -jar [SPEC_PARAMS]
+  *HotSpot's G1 can be used with the following cmd:
+   command = "java heapSizeInit -Xmx heapSizeMax -XX:+UseG1GC -XX:+PrintGCApplicationConcurrentTime -verbose:gc -jar [SPEC_PARAMS]*
    
