@@ -44,7 +44,15 @@ Inside *src/main/python* each Python script corresponds to a different GC test.
 
   Finally, a Python script(*src/main/python/Parsers/plot.py*) receives as input the .csv files that are were previously generated and creates the final plots of the benchmark results.  
   
-### Logging GC information
+####  - Logging GC information
   We use the following arguments:
     - Maxine's GCs : -XX:+TraceGCTime, -XX:+PrintCompilationTime
     - HotSpot G1: -XX:+PrintGCApplicationConcurrentTime, -verbose:gc
+    
+#### - Running benhcmark cmds
+  
+  Both Maxine's GCs benchmark tests can be run with the following cmd:
+  
+   *mx vm -Xms heapSizeInit -Xmx heapSizeMax -XX:+TraceGCTime -XX:+PrintCompilationTime -Dspecjvm.home.dir=../resources/SPECSPEC      -jar  ../SPEC/SPECjvm2008.jar -it execTime -wt warmUpTime -coe -crf false -ikv benchmarkName*
+
+  
