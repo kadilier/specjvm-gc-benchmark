@@ -29,15 +29,21 @@ Inside *src/main/python* each Python script corresponds to a different GC test.
  - eg. running runGenSSBenchmarks.py executes all SPECjvm2008 benchmark tests on Maxine VM using GEnerational Semi-Space garbage
    collector(default GC). Results will be generated inside */src/main/resources/Benchmarks* sorted by each individual test.
    
+   ** each benchmark run may take a lot of time(5-10 hours) depending on the HW characteristics of the host computer.
+   
 ### Parsing results
 
   Python parsers are located inside *src/main/python/Parsers*. Again, each script corresponds to a different GC test.
   
   - eg. running genSSParser.py all benchmark results of Maxine's GenSS(located in *src/main/resource/Benchmarks*) are parsed
-  and stored in a json format output file.
+  and the output results are stored: *src/main/resources/PlotInput* as .csv files.
   
   This file contains all details for the experiment that were executed.
-    
+  
+### Creating plots
+
+  Finally, a Python script(*src/main/python/Parsers/plot.py*) receives as input the .csv files that are were previously generated and creates the final plots of the benchmark results.  
+  
 ### Logging GC information
   We use the following arguments:
     - Maxine's GCs : -XX:+TraceGCTime, -XX:+PrintCompilationTime
