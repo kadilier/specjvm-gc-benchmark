@@ -10,7 +10,7 @@ class Result:
 
     def __init__(self, heapSize, bench_id, gcNum, minorNumNotFull, minorTotalTime, minorTotalReclaimed, minorTotalTimeFull, majorTotalNum, majorTotalTime, totalTimeFull, totalTime, majorTotalReclaimed):
         # Configs
-        self.heapSize = heapSize
+        self.heapSize = int(heapSize)
         self.bench_id = bench_id
 
         # Measurement
@@ -24,20 +24,6 @@ class Result:
         self.totalTimeFull = totalTimeFull
         self.totalTime = totalTime
         self.majorTotalReclaimed = majorTotalReclaimed
-
-    #def __init__(self, heapSize, bench_id, time, majorC, minorC, majorAvgT, minorAvgT, majorTotalT, minorTotalT):
-        # Configs
-        #self.heapSize = heapSize
-        #self.bench_id = bench_id
-
-        # Measurement
-        #self.time = time
-        #self.majorC = majorC
-        #self.minorC = minorC
-        #self.majorAvgT = majorAvgT
-        #self.minorAvgT = minorAvgT
-        #self.majorTotalT = majorTotalT
-        #self.minorTotalT = minorTotalT
 
     def getHeapSize(self):
         return self.heapSize
