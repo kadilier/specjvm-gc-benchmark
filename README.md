@@ -9,7 +9,7 @@ We are testing the following 3 Garbage Collectors:
 For measuring the performance of each GC we are using the [SPECjvm2008](https://www.spec.org/jvm2008/) benchmark suite, which consists of the following benchmarks :
   (*Startup, Compiler, Compress, Crypto, Derby, Mpegaudio, Scimark, Serial, Sunflow, Xml*)
 
-Each test is performed for all 3 different GCs and for 6 different heap sizes(64 to 2048 MB), which results in **160** 
+Each test is performed for all 3 different GCs and for 5 different heap sizes(64 to 1024 MB), which results in **135** 
 individual test runs.
 
 ### Prerequisites
@@ -38,8 +38,7 @@ Inside *src/main/python* each Python script corresponds to a different GC test.
   - eg. running genSSParser.py all benchmark results of Maxine's GenSS(located in *src/main/resource/Benchmarks*) are parsed
   and the output results are stored: *src/main/resources/PlotInput* as .csv files.
   
-  This file contains all details for the experiment that were executed.
-  
+ 
 ### Creating plots
 
   Finally, a Python script(*src/main/python/Parsers/plot.py*) receives as input the .csv files that are were previously generated and creates the final plots of the benchmark results.  
