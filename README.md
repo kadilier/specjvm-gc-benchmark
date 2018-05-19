@@ -20,7 +20,7 @@ individual test runs.
 
 ### Creating necessary directories
 
-Specjvm2008 download from [here] (https://www.spec.org/download.html)) and placed in the following dir: *src/main/resources/SPEC*. Benchmark run scipts inside:  src/main/python create any other necessary dir inside src/main/resources.
+Specjvm2008 must be downloaded (https://www.spec.org/download.html) and placed in the following dir: *src/main/resources/SPEC*. Benchmark run scipts inside:  src/main/python create any other necessary dir inside src/main/resources.
 
 ### Running benchmark tests
 
